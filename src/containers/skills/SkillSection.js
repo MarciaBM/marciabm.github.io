@@ -5,39 +5,42 @@ import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./datascience/DataScienceImg";
 import FullStackImg from "./web/FullStackImg";
-import DesignImg from "./ui/DesignImg";
+import TeamLeadImg from "./teamLead/TeamLeadImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
   else if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  return <TeamLeadImg theme={props.theme} />;
 }
+
+//animations taken from: https://lottiefiles.com/search?category=animations&q=website
+//icons taken from: https://icon-sets.iconify.design
 
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
       <div>
-        {skills.data.map((skill) => {
+        {skills.data.map((skill, index) => {
           return (
-            <div className="skills-main-div">
-              <Fade left duration={2000}>
+            <div className="skills-main-div" style={{flexDirection: index %2 == 0 ? "row-reverse": "unset"}}>
+              <Fade left={index %2 != 0} right={index %2 == 0} duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
               <div className="skills-text-div">
-                <Fade right duration={1000}>
+                <Fade right={index %2 != 0} left={index %2 == 0} duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.blue }}>
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right duration={1500}>
+                <Fade right={index %2 != 0} left={index %2 == 0} duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
-                <Fade right duration={2000}>
+                <Fade right={index %2 != 0} left={index %2 == 0} duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence) => {
                       return (

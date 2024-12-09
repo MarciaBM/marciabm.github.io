@@ -7,7 +7,7 @@ import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
 import { projectcards } from "../../portfolio";
-import { CardColumns, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -41,7 +41,7 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          <CardColumns>
+          {/*<CardColumns>*/}
             {projectcards.list.map((proj) => {
               return (
                 <Card className="h-100">
@@ -107,7 +107,7 @@ class Projects extends Component {
                 </Card>
               );
             })}
-          </CardColumns>
+          {/*</CardColumns>*/}
         </div>
         <Button
           text={"More Projects"}

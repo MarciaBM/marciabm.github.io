@@ -1,5 +1,5 @@
 import React from "react";
-import { blackTheme } from "../../theme";
+import {blackTheme, lightTheme} from "../../theme";
 import "./Button.css";
 
 const onMouseEnter = (event, color, bgColor) => {
@@ -15,7 +15,7 @@ const onMouseOut = (event, color, bgColor) => {
 };
 
 export default function Button({ text, className, href, newTab, theme }) {
-  theme = blackTheme;
+  theme = lightTheme;
   return (
     <div className={className}>
       <a
@@ -24,11 +24,11 @@ export default function Button({ text, className, href, newTab, theme }) {
         target={newTab && "_blank"}
         style={{
           color: theme.text,
-          backgroundColor: theme.body,
+          backgroundColor: theme.blue,
           border: `solid 0px ${theme.text}`,
         }}
-        onMouseEnter={(event) => onMouseEnter(event, theme.blue, theme.body)}
-        onMouseOut={(event) => onMouseOut(event, theme.text, theme.body)}
+        onMouseEnter={(event) => onMouseEnter(event, theme.body, theme.blue)}
+        onMouseOut={(event) => onMouseOut(event, theme.text, theme.blue)}
       >
         {text}
       </a>

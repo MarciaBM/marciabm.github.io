@@ -46,7 +46,7 @@
 }
 .greeting-typewriter {
   margin-top: 0px;
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 60px;
   line-height: 0px;
   font-family: "Google Sans Regular";
@@ -180,7 +180,7 @@
 [data-entity][data-entity="noun"] {
   background: rgba(166, 226, 45, 0.2);
   border-color: rgb(166, 226, 45);
-  color: rgb(255, 255, 255);
+  color: rgb(63, 59, 59);
 }
 [data-entity][data-entity="noun"]::after {
   background: rgb(166, 226, 45);
@@ -190,7 +190,7 @@
 [data-entity][data-entity="person"] {
   background: rgba(45, 226, 217, 0);
   border-color: rgb(45, 226, 141);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 [data-entity][data-entity="person"]::after {
@@ -201,7 +201,7 @@
 [data-entity][data-entity="skill"] {
   background: rgb(187, 47, 117, 0.2);
   border-color: rgb(187, 47, 117);
-  color: rgb(255, 255, 255);
+  color: rgb(63, 59, 59);
 }
 
 [data-entity][data-entity="skill"]::after {
@@ -220,11 +220,11 @@
 }
 
 [data-entity][data-entity="verb"] {
-  background: rgba(47, 187, 171, 0.2);
+  background: rgba(53, 215, 196, 0.2);
   border-color: rgb(47, 187, 171);
-  color: rgb(255, 255, 255);
+  color: rgb(63, 59, 59);
 }
 
 [data-entity][data-entity="verb"]::after {
-  background: rgb(21, 124, 112);
+  background: rgb(53, 215, 196);
 }

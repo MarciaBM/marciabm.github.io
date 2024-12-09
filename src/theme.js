@@ -3,13 +3,15 @@ export const blackTheme = {
   text: "#ffffff",
   blue: "#1179f7",
   orange: "#ffa500",
+  grayText: "#6c757d",
 };
 
 export const lightTheme = {
   body: "#ffffff",
   text: "#000000",
-  blue: "#1179f7",
-  orange: "#ffa500",
+  blue: "#27c9d9",
+  orange: "#950ccb",
+  grayText: "#6c757d",
 };
 
-export const chosenTheme = blackTheme;
+export const chosenTheme = lightTheme;

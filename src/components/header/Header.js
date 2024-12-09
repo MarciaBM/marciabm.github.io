@@ -8,11 +8,13 @@ import SeoHeader from "../seoHeader/SeoHeader";
 import logo from "../../assets/logo/logo-01.png";
 const onMouseEnter = (event, color) => {
   const el = event.target;
+  el.style.borderRadius = "5px"
   el.style.backgroundColor = color;
 };
 
 const onMouseOut = (event) => {
   const el = event.target;
+  el.style.borderRadius = "5px"
   el.style.backgroundColor = "transparent";
 };
 

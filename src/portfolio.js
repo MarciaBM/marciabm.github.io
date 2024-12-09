@@ -4,11 +4,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Márcia Matias | Portfolio",
   description:
     "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
   og: {
-    title: "Rohan Portfolio",
+    title: "Márcia Portfolio",
     type: "website",
     url: "http://rohankokkula.ml/",
   },
@@ -16,9 +16,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
+  title: "Hello!",
+  sub: "Márcia Matias",
+  logo_name: "Márcia Matias",
   resumeLink: "",
 };
 
@@ -26,52 +26,20 @@ const greeting = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "Github",
-      iconifyClassname: "simple-icons:github",
-      style: {
-        color: "white",
-      },
-      profileLink: "https://github.com/rohankokkula",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/rohankokkula01",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/rohan0301",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@rohankokkula",
-    },
-    {
       siteName: "LinkedIn",
       iconifyClassname: "simple-icons:linkedin",
       style: {
         color: "#0077b5",
       },
-      profileLink: "https://www.linkedin.com/in/rohankokkula/",
+      profileLink: "https://www.linkedin.com/in/marciabm/",
     },
     {
-      siteName: "HashNode",
-      iconifyClassname: "simple-icons:hashnode",
+      siteName: "Github",
+      iconifyClassname: "simple-icons:github",
       style: {
-        color: "#2962ff",
+        color: "black",
       },
-      profileLink: "",
+      profileLink: "https://github.com/MarciaBM",
     },
   ],
 };
@@ -80,7 +48,75 @@ const competitiveSites = {
 const skills = {
   data: [
     {
-      title: "Data Science & Analysis",
+      title: "Team Lead",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Leading in the development of a web application and a Python API.",
+        "⚡ Very good skills of organisation and responsibility.",
+        "⚡ Helped guiding eight students through theirs master's thesis.",
+        "⚡ Master's thesis reviewing.",
+        "⚡ Making contact between the stakeholders and the students.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "git",
+          fontAwesomeClassname: "logos-git-icon",
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos-docker-icon",
+        },
+      ]
+    },
+    {
+      title: "Full-Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Modeling and implementing spatial and relational databases using PostgreSQL & PostGIS, or similar database systems.",
+        "⚡ Modeling and creating a back-end API from scratch using Java, Quarkus, or similar frameworks.",
+        "⚡ Experience in handling with spatial data, specially cleaning and organizing it.",
+        "⚡ Experience in creating front-end applications using ReactJS, NextJS, or similar frameworks.",
+        "⚡ Experience in use spatial interactive frameworks, like OpenLayers and ArcGIS Maps SDK, to show maps and geometries.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos-postgresql",
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "logos:typescript-icon",
+        },
+        {
+          skillName: "Quarkus",
+          fontAwesomeClassname: "logos-quarkus-icon",
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "logos-react",
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "logos-nextjs-icon",
+        },
+
+        {
+          skillName: "OpenLayers",
+          fontAwesomeClassname: "logos-openlayers",
+        },
+        {
+          skillName: "IntelliJ IDEA",
+          fontAwesomeClassname: "logos-intellij-idea",
+        },
+      ],
+    },
+
+    {
+      title: "Data Analysis",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production-ready models for various deep learning and statistical use cases",
@@ -90,159 +126,28 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos-postgresql",
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "Neo4j",
+          fontAwesomeClassname: "logos-neo4j",
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "NumPy",
-          fontAwesomeClassname: "logos-numpy",
-          style: {
-            backgroundColor: "transparent",
-          },
+          fontAwesomeClassname: "logos-python",
         },
         {
           skillName: "Tableau",
-          fontAwesomeClassname: "logos-tableau",
-          style: {
-            backgroundColor: "transparent",
-          },
+          fontAwesomeClassname: "logos-tableau-icon",
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos-mongodb",
         },
       ],
     },
-    {
-      title: "Web Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive websites using HTML5, CSS3, BootStrap5, ReactJS & NodeJS",
-        "⚡ Creating application backend in Node, Flask & Streamlit",
-        "⚡ Having experience in Domain & Hosting using Netlify, Vercel, Heroku & Hostinger",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "BootStrap",
-          fontAwesomeClassname: "logos-bootstrap",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interfaces for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-        "⚡ Applying latest Design principles and experienced in product wireframing",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Adobe Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#2fa3f7",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-      ],
-    },
+
   ],
 };
 

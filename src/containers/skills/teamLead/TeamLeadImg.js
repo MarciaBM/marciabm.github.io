@@ -2,7 +2,7 @@ import React, {useRef,useEffect } from "react";
 import lottie from 'lottie-web';
 // import data from "./data.svg"
 // for animated svgs use json file
-export default function DesignImg(){
+export default function TeamLeadImg(){
     const container = useRef(null)
     useEffect(() => {
       lottie.loadAnimation({
@@ -10,7 +10,7 @@ export default function DesignImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        animationData: require('./ui.json')
+        animationData: require('./team_lead.json')
       })
     }, [])
     return (

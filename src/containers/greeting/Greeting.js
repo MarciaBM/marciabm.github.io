@@ -22,20 +22,20 @@ export default function Greeting(props) {
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
                 I'm <mark data-entity="person">{greeting.sub}</mark>
               </h1>
-              <h1 className="greeting-typewriter" style={{color: theme.blue}}>
+              <h1 className="greeting-typewriter" style={{color: theme.blue, whiteSpace: "pre-wrap"}}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(NLP)")
+                      .typeString("Lead Research Fellow")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("Web Developer")
+                      .typeString("Full-Stack Developer")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("UI/UX Designer")
+                      .typeString("Science and Computer Engineer")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("IT Engineer")
+                      .typeString("Data Engineer")
                       .pauseFor(200)
                       .start();
                   }}
@@ -49,12 +49,12 @@ export default function Greeting(props) {
                 className="greeting-text-span subTitle"
                 style={{ color: theme.text }}>
                 <div className="entities">
-                  A <mark data-entity="noun">Data Science practitioner</mark>{" "}
-                  who thrives to{" "}
-                  <mark data-entity="verb">leverage Startups</mark> using
-                  AI-based solutions along with{" "}
-                  <mark data-entity="skill">Web Development</mark> and a blend
-                  of <mark data-entity="freelance">UI/UX Designing</mark>
+                  A <mark data-entity="noun">science and computer engineer</mark>{" "}
+                  who is <mark data-entity="verb">passionated</mark>{" "} about {" "}
+                  <mark data-entity="noun">data analysis and engineering</mark>,
+                  and has recently worked on the {" "}
+                  <mark data-entity="skill">full-stack development</mark> of the LAND IT project,
+                  a supporting decision system.
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
