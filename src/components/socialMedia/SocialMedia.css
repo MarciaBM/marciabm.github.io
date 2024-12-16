@@ -4,7 +4,7 @@
 }
 
 .icon-button i {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .icon-button {
   margin-bottom: 10px;
@@ -63,7 +63,7 @@ Hover Transition .twitter i:hover,
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover {
-  background-color: black;
+  background-color: #ffffff;
   transition: 0.3s ease-in;
 }
 

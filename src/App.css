@@ -29,6 +29,11 @@
   color: #868e96;
 }
 
+:root {
+  --themeBlue: #27c9d9;
+  --themeOrange: #811cef;
+}
+
 /* Animations */
 @keyframes fade_down {
   0% {

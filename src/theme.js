@@ -9,8 +9,8 @@ export const blackTheme = {
 export const lightTheme = {
   body: "#ffffff",
   text: "#000000",
-  blue: "#27c9d9",
-  orange: "#950ccb",
+  blue: window.getComputedStyle(document.body).getPropertyValue('--themeBlue'),
+  orange: window.getComputedStyle(document.body).getPropertyValue('--themeOrange'),
   grayText: "#6c757d",
 };
 
