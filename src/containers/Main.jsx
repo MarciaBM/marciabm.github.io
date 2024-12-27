@@ -8,7 +8,7 @@ import Projects from "../pages/projects/Projects.jsx";
 import { settings } from "../portfolio.jsx";
 
 import ReactGA from "react-ga";
-import AboutMe from "../pages/aboutMe/aboutMe.jsx";
+import AboutMeComponent from "../pages/aboutMe/AboutMeComponent.jsx";
 
 // Initialize Google Analytics page tracking
 ReactGA.initialize("YOUR_GOOGLE_ANALYTICS_TRACKING_ID");
@@ -41,7 +41,7 @@ class Main extends Component {
                     />
                     <Route
                         path="/about"
-                        element={<AboutMe theme={this.props.theme} />}
+                        element={<AboutMeComponent theme={this.props.theme} />}
                     />
                     <Route
                         path="/education"
@@ -69,6 +69,10 @@ class Main extends Component {
                     <Route
                         path="/home"
                         element={<Home theme={this.props.theme} />}
+                    />
+                    <Route
+                        path="/about"
+                        element={<AboutMeComponent theme={this.props.theme} />}
                     />
                     <Route
                         path="/education"
