@@ -9,7 +9,7 @@ export default function AboutMeImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/pages/aboutMe/about.json'
+        path: 'src/pages/aboutMe/about2.json'
       })
     }, [])
     return (

@@ -75,7 +75,7 @@
 .resume-section {
   position: relative !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /*background-image: var(--section-background-color) !important;*/
   color: black;
 }
 

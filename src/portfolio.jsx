@@ -503,12 +503,85 @@ const socialMediaLinks = [
         backgroundColor: "rgb(0,119,181)", // Reference https://simpleicons.org/?q=linkedin
     },
     {
-        name: "Gmail",
+        name: "Email",
         link: "mailto:marciab.matias@hotmail.com",
         fontAwesomeIcon: "vscode-icons:file-type-outlook", // Reference https://fontawesome.com/icons/google?style=brands
         backgroundColor: "#126ce5", // Reference https://simpleicons.org/?q=gmail
     },
 ];
+
+const languages = [
+    {
+        name: "Java",
+        value: 5
+    },
+    {
+        name: "SQL",
+        value: 4
+    },
+    {
+        name: "TypeScript",
+        value: 4
+    },
+    {
+        name: "Python",
+        value: 3
+    }
+]
+
+const idioms = [
+    {
+        name: "Portuguese",
+        value: 5
+    },
+    {
+        name: "English",
+        value: 4
+    },
+    {
+        name: "Spanish",
+        value: 2
+    }
+]
+
+const softSkills = [
+    "⚡ Motivation by challenges",
+    "⚡ Organization",
+    "⚡ Working under pressure",
+    "⚡ Communication",
+    "⚡ Critical thinking",
+    ]
+
+const hobbies = [
+    {
+        skillName: "Watch TV Shows",
+        fontAwesomeClassname: "tabler-device-tv",
+    },
+    {
+        skillName: "Going to the Gym",
+        fontAwesomeClassname: "mdi-gym",
+    },
+    {
+        skillName: "Outdoor Relaxation",
+        fontAwesomeClassname: "twemoji:sun",
+    },
+    {
+        skillName: "Doing my Nails",
+        fontAwesomeClassname: "fluent-emoji:nail-polish-light",
+    },
+    {
+        skillName: "Playing board games",
+        fontAwesomeClassname: "noto-chess-pawn"
+    },
+    {
+        skillName: "Archery",
+        fontAwesomeClassname: "noto:bow-and-arrow",
+    },
+    {
+        skillName: "Playing video games",
+        fontAwesomeClassname: "noto:video-game"
+    }
+]
 
 export {
     settings,
@@ -523,4 +596,8 @@ export {
     certifications,
     resumeleft,
     resumeright,
+    languages,
+    idioms,
+    softSkills,
+    hobbies
 };
