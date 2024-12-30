@@ -15,25 +15,28 @@ class AboutMeComponent extends Component {
         return (
             <div className={"about-main"}>
                 <Header theme={theme}/>
-                <div className="basic-education">
+                <div className="basic-about">
                     <Fade bottom duration={2000} distance="40px">
-                        <div className="heading-div">
-                            <div className="heading-img-div">
+                        <div className="heading-div-about">
+                            <div className="heading-img-div-about">
                                 <AboutMeImg theme={theme}/>
                             </div>
-                            <div className="heading-text-div">
-                                <h1 className="heading-text" style={{color: theme.orange}}>
+                            <div className="heading-text-div-about">
+                                <h1 className="heading-text-about" style={{color: theme.orange}}>
                                     About Me
                                 </h1>
-                                <h3 className="heading-sub-text" style={{color: theme.text}}>
+                                <h3 className="heading-sub-text-about" style={{color: theme.text}}>
                                     Soft Skills, Idioms,
                                     <br/>Languages and Hobbies
                                 </h3>
                             </div>
                         </div>
                     </Fade>
-                    <div style={{display: "flex", flexDirection: "row", gap: "20px", justifyContent: "space-around"}}>
+                    <div className={"heading-div-about2"}>
                         <div>
+                            <span><b>Date of Birth:</b> 08<sup>th</sup> Jan 2000</span>
+                            <br/>
+                            <span><b>Address:</b> Mafra, Lisboa, Portugal</span>
                             <SkillsSet theme={this.props.theme} name={"Main Programming Languages"} skills={languages}/>
                             <SkillsSet theme={this.props.theme} name={"Idioms"} skills={idioms}/>
                         </div>
@@ -46,8 +49,7 @@ class AboutMeComponent extends Component {
                             </div>
                             <br/>
                             <div>
-                                <h3>My Hobbies</h3>
-                                <br/>
+                                <h3>My Hobbies and Interests</h3>
                                 <SoftwareSkill logos={hobbies}/>
                             </div>
                         </div>

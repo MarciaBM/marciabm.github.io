@@ -23,23 +23,26 @@ class CertificationCard extends Component {
             </div>
           </div>
           <div className="cert-body">
-            <h2 className="cert-body-title" style={{ color: theme.text }}>
+            <h2 className="cert-body-title" style={{color: theme.text}}>
               {certificate.title}
-              <a
-                style={{ color: theme.text }}
-                href={certificate.certificate_link}
-                target="_blank"
-                rel="noopener noreferrer"
+              {certificate.certificate_link != "" ? <a
+                  style={{color: theme.text}}
+                  href={certificate.certificate_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
                 <i
-                  className={`fas fa-external-link-alt`}
-                  style={{ paddingLeft: "10px" }}
+                    className={`fas fa-external-link-alt`}
+                    style={{paddingLeft: "10px"}}
                 ></i>
-              </a>
+              </a> : null}
             </h2>
-            <h3 className="cert-body-subtitle" style={{ color: theme.orange }}>
+            <h3 className="cert-body-subtitle" style={{color: theme.orange}}>
               {certificate.subtitle}
             </h3>
+            <span>Date: {certificate.date}</span>
+            <br/>
+            <span>Certification code: {certificate.certification_code}</span>
           </div>
         </div>
       </Fade>

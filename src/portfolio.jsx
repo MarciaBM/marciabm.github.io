@@ -360,6 +360,7 @@ const resumeleft = {
                 title: "Lead Research Fellow | Full-Stack Developer",
                 subtitle: "NOVA School of Science and Technology & AZR",
                 date: "September 2024 - present",
+                companies: ["fct.png", "azr.png"],
                 content: [
                     "Continued the implementation of the LAND IT project",
                     "Helped guiding eight students through their master's thesis, related to the LAND IT project",
@@ -369,6 +370,7 @@ const resumeleft = {
                 title: "Research Fellow | Full-Stack Developer",
                 subtitle: "NOVA School of Science and Technology & AZR",
                 date: "June 2023 - August 2024",
+                companies: ["fct.png", "azr.png"],
                 content: [
                     "Full-Stack Developer for the LAND IT project, which was also my Master's thesis, created from scratch",
                     "The LAND IT project is a decision support system for land management, in specific for the AIGP (PRR)",
@@ -380,6 +382,7 @@ const resumeleft = {
                 title: "Teaching Assistant",
                 subtitle: "NOVA School of Science and Technology",
                 date: "September 2022 - January 2023",
+                companies: ["fct.png"],
                 content: [
                     "Teaching assistant for the course of Introduction to Programming",
                     "Taught the practical classes",
@@ -389,6 +392,7 @@ const resumeleft = {
             {
                 title: "Introduction to Programming Tutor",
                 subtitle: "Autonomous",
+                companies: [],
                 date: "November 2020 - July 2022",
                 content: [
                     "Covered programming languages: Java, C# and JavaFX",
@@ -407,50 +411,52 @@ const resumeright = {
                 {
                     title: "Integrated Master in Computer Science and Engineering",
                     subtitle: "NOVA School of Science and Technology",
-                    date: "September 2018 - December 2023",
+                    companies: ["fct.png"],
+                    date: "Sept. 2018 - Dec. 2023",
                     content: [<span>Bachelor Degree: Final grade - <b>17 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
                         <span>Master's Degree: Final grade - <b>18 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
                         <span>Master's Thesis: <a target="_blank" href={"https://run.unl.pt/handle/10362/163563"}> Decision Support System for the Integrated Areas of the Territory </a> </span>,
-                        <span>Master's Thesis Grade: <b>19 mark</b> | A (scale: 0-20 | ECTS grading system)</span>]
+                        <span>Master's Thesis Grade: <b>19 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
+                        <span>Master's Main Courses:<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Data Visualization and Analysis <br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Data Modeling<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Database Systems<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Concurrency and Parallelism<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Cloud Computing Systems<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Information Retrieval<br/>
+                        </span>
+
+                    ]
                 },
                 {
                     title: "Scientific-Humanistic Course in Science and Technology",
                     subtitle: "Escola Secundária José Saramago, Mafra",
+                    companies: [],
                     date: "2015 - 2018",
                     content: ["Final grade: 16 mark out of 20"],
                 },
             ],
         },
         {
-            title: ["Achivements"],
+            title: ["Achievements & Awards"],
             data: [
                 {
                     title: "Merit Scholarship by DGES",
+                    companies: [],
                     content: [
-                        <span>Awarded with a <a target="_blank" href={"https://www.fct.unl.pt/estudante/informacao-academica/bolsas-de-merito-referentes-ao-aproveitamento-escolar-em-2022/2023"}>merit scholarship</a> by DGES for the academic year 2022/2023, for being among the top-performing integrated master's students in the faculty that year</span>,
-                    ],
-                },
-            ],
-        },
-        {
-            title: ["Freelance Work"],
-            data: [
-                {
-                    title: "Consultancy Website",
-                    subtitle: "kidsworldeducationconsultants.com",
-                    content: [
-                        "Created and hosted a website for consultancy providers in Kids Education Domain",
+                        <span>Awarded with a <a target="_blank"
+                                                href={"https://www.fct.unl.pt/estudante/informacao-academica/bolsas-de-merito-referentes-ao-aproveitamento-escolar-em-2022/2023"}>merit scholarship</a> by DGES for the academic year 2022/2023, for being among the top-performing integrated master's students in the faculty that year</span>,
                     ],
                 },
                 {
-                    title: "Portfolio Website",
-                    subtitle: "pranavphulware.netlify.app",
+                    title: "3rd place in the National University Championship of Archery (CNU) ",
+                    companies: [],
                     content: [
-                        "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
-                    ],
-                },
+                        "3rd place in the National University Championship of Archery (CNU) in the academic year 2022/2023, in the category of Feminine Recurve Bow",
+                    ]
+                }
             ],
-        },
+        }
     ],
 };
 
@@ -458,12 +464,33 @@ const resumeright = {
 const certifications = {
     certifications: [
         {
-            title: "Tableau Analyst",
-            subtitle: "Tableau",
-            logo_path: "tabana-01.png",
-            certificate_link:
-                "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
-            alt_name: "Tableau",
+            title: "Electoral Agents – Board Members",
+            subtitle: "Plataforma NAU",
+            logo_path: "nau.png",
+            certification_code: "7aa9d84ae0354fcfb2e3df6130dfdb2a",
+            certificate_link: "https://lms.nau.edu.pt/certificates/7aa9d84ae0354fcfb2e3df6130dfdb2a",
+            alt_name: "NAU",
+            date: "May 2024",
+            color_code: "#e7e7e7",
+        },
+        {
+            title: "SQL (Basic)",
+            subtitle: "Hacker Rank",
+            logo_path: "hr.png",
+            certification_code: "cc607b0c39c8",
+            certificate_link: "https://www.hackerrank.com/certificates/cc607b0c39c8",
+            alt_name: "NAU",
+            date: "October 2023",
+            color_code: "#e7e7e7",
+        },
+        {
+            title: "Preliminary English Test (PET) - Level B1",
+            subtitle: "Cambridge University Press & Assessment",
+            logo_path: "cambridge.png",
+            certification_code: "0049593824",
+            certificate_link: "",
+            alt_name: "PET",
+            date: "July 2015",
             color_code: "#e7e7e7",
         },
     ],
@@ -550,7 +577,7 @@ const softSkills = [
     "⚡ Working under pressure",
     "⚡ Communication",
     "⚡ Critical thinking",
-    ]
+]
 
 const hobbies = [
     {

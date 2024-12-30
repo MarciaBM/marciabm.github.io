@@ -80,7 +80,7 @@ color:pink;
 }
 
 .header .menu-icon .navicon {
-  background: rgb(255, 255, 255);
+  background: black;
   display: block;
   height: 2px;
   position: relative;
@@ -90,7 +90,7 @@ color:pink;
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   content: "";
   display: block;
   height: 100%;
