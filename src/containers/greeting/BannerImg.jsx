@@ -4,20 +4,22 @@ import React, {useRef,useEffect } from "react";
 // import banner from "./greeting-01.svg"
 
 //for animated svgs use json file
-export default function BannerImg(){
+export default function BannerImg(props){
     const container = useRef(null)
+    const {className} = props;
     useEffect(() => {
       lottie.loadAnimation({
         container: container.current,
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/containers/greeting/banner.json'
+        path: 'src/containers/greeting/back.json',
+        height: '1024px'
       })
     }, [])
     return (
       <div className="App">
-        <div className="container" ref={container}></div>
+        <div className={"container "+className} ref={container} ></div>
       </div>
     );
 }

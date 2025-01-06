@@ -9,7 +9,7 @@ export default function ProjectsImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: "src/pages/projects/proj2.json"
+        path: "src/pages/projects/projects.json"
       })
     }, [])
     return (

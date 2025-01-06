@@ -47,18 +47,18 @@ class Contact extends Component {
                     theme={theme}
                   />
                 </div>
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {addressSection["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.blue }}
-                >
-                  {addressSection["subtitle"]}
-                </p>
+                {/*<h1*/}
+                {/*  className="address-heading-text"*/}
+                {/*  style={{ color: theme.text }}*/}
+                {/*>*/}
+                {/*  {addressSection["title"]}*/}
+                {/*</h1>*/}
+                {/*<p*/}
+                {/*  className="contact-header-detail-text subTitle"*/}
+                {/*  style={{ color: theme.blue }}*/}
+                {/*>*/}
+                {/*  {addressSection["subtitle"]}*/}
+                {/*</p>*/}
                 {/*<h1*/}
                 {/*  className="address-heading-text"*/}
                 {/*  style={{ color: theme.text }}*/}

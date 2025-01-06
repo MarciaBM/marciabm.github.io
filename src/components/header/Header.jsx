@@ -41,7 +41,7 @@ class Header extends Component {
                     tag={Link}
                     // activeStyle={{ fontWeight: "bold" }}
                     style={{color: theme.text}}
-                    onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
+                    onMouseEnter={(event) => onMouseEnter(event, "lightGray")}
                     onMouseOut={(event) => onMouseOut(event)}
                 >
                   Home
@@ -53,7 +53,7 @@ class Header extends Component {
                     tag={Link}
                     // activeStyle={{ fontWeight: "bold" }}
                     style={{color: theme.text}}
-                    onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
+                    onMouseEnter={(event) => onMouseEnter(event, "lightGray")}
                     onMouseOut={(event) => onMouseOut(event)}
                 >
                   About Me
@@ -65,7 +65,7 @@ class Header extends Component {
                     tag={Link}
                     // activeStyle={{ fontWeight: "bold" }}
                     style={{color: theme.text}}
-                    onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
+                    onMouseEnter={(event) => onMouseEnter(event, "lightGray")}
                     onMouseOut={(event) => onMouseOut(event)}
                 >
                   Experience &#38; Education
@@ -78,7 +78,7 @@ class Header extends Component {
                     tag={Link}
                     // activeStyle={{ fontWeight: "bold" }}
                     style={{color: theme.text}}
-                    onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
+                    onMouseEnter={(event) => onMouseEnter(event, "lightGray")}
                     onMouseOut={(event) => onMouseOut(event)}
                 >
                   Projects
@@ -90,7 +90,7 @@ class Header extends Component {
                     tag={Link}
                     // activeStyle={{ fontWeight: "bold" }}
                     style={{color: theme.text}}
-                    onMouseEnter={(event) => onMouseEnter(event, theme.blue)}
+                    onMouseEnter={(event) => onMouseEnter(event, "lightGray")}
                     onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me

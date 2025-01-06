@@ -155,7 +155,9 @@ const skills = {
 const projectsHeader = {
     title: "Projects",
     description:
-        "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+        "In here are present the projects that I considered the most relevant during my master," +
+        " two personal projects that I developed for fun" +
+        " and the biggest project that I've ever made, LAND IT, also my master's thesis.",
 };
 
 //project cards
@@ -163,191 +165,151 @@ const projectsHeader = {
 const projectcards = {
     list: [
         {
-            title: "TEATH",
-            img_path: "project-06.png",
+            title: "LAND IT",
+            img_path: "land_it.png",
             description:
-                "A WebApp for Extracting Text from Images and applying various thresholding methods with sentiment analysis using TextBlob",
+                "LAND IT is a spatial decision support system to help its stakeholders planning and " +
+                "managing the new design of the territory in some areas that are constantly " +
+                "affected by wildfires, with the goal to turn the territory more resilient and economically viable." +
+                " This project was started from scratch as my master's thesis. ",
             tags: [
                 {
-                    lang: "python",
-                    color: "#004782",
+                    lang: "Java",
+                    color: "#ea8c10",
                 },
                 {
-                    lang: "TextBlob",
-                    color: "#820032",
+                    lang: "JavaScript",
+                    color: "#e0b610",
                 },
                 {
-                    lang: "OpenCV",
+                    lang: "NextJS",
                     color: "#00a100",
                 },
                 {
-                    lang: "Streamlit",
-                    color: "#ff4b4b",
+                    lang: "Quarkus",
+                    color: "#0cb9ee",
                 },
                 {
-                    lang: "Heroku",
-                    color: "#3c0095",
+                    lang: "OpenLayers",
+                    color: "#10da21",
+                },
+                {
+                    lang: "PostgreSQL + PostGIS",
+                    color: "#c30fd7",
                 },
             ],
             link: "https://teath.herokuapp.com ",
-            code: "https://github.com/rohankokkula/TEATH",
-            linkcolor: "white",
+            // code: "https://github.com/rohankokkula/TEATH",
+            linkcolor: "black",
         },
 
         {
-            title: "Voice Gender Detection",
-            img_path: "voice.gif",
+            title: "Sorting Memories",
+            subTitle: "(Personal Project)",
+            img_path: "art-gallery.jpg",
             description:
-                "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+                "A desktop app that allows its users to organize photos by year and detect and delete duplicates.",
             tags: [
                 {
-                    lang: "ongoing",
-                    color: "red",
+                    lang: "JavaFX",
+                    color: "#f5a206",
                 },
                 {
-                    lang: "python",
-                    color: "#004782",
-                },
-                {
-                    lang: "matplotlib",
-                    color: "#c47206",
-                },
-                {
-                    lang: "tensorflow",
-                    color: "#4257f5",
-                },
-                {
-                    lang: "Streamlit",
-                    color: "#ff4b4b",
+                    lang: "OpenCV",
+                    color: "#ec0b59",
                 },
             ],
             link: "",
-            code: "",
-            linkcolor: "white",
+            code: "https://github.com/MarciaBM/Sorting_Memories",
+            linkcolor: "black",
         },
         {
-            title: "NeuralViz",
-            img_path: "neural.gif",
+            title: "ISplit",
+            subTitle: "(Personal Project)",
+            img_path: "split.png",
             description:
-                "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+                "A mobile app that allows its users to create an activity and split the costs among the participants.",
             tags: [
                 {
-                    lang: "python",
-                    color: "#004782",
+                    lang: "Flutter",
+                    color: "#e38c18",
                 },
                 {
-                    lang: "numpy",
-                    color: "#8700b0",
+                    lang: "Dart",
+                    color: "#0383c9",
                 },
                 {
-                    lang: "matplotlib",
-                    color: "#c47206",
-                },
-                {
-                    lang: "Streamlit",
-                    color: "#ff4b4b",
-                },
-                {
-                    lang: "Heroku",
-                    color: "#3c0095",
+                    lang: "Android Studio",
+                    color: "#06c42c",
                 },
             ],
-            link: "https://neuralviz.herokuapp.com/",
-            code: "https://github.com/rohankokkula/neuralviz",
-            linkcolor: "white",
+            // link: "https://neuralviz.herokuapp.com/",
+            // code: "https://github.com/rohankokkula/neuralviz",
+            linkcolor: "black",
         },
         {
-            title: "Semantic Search APP",
-            img_path: "project-03.png",
+            title: "Analysis of Chicago's Security",
+            subTitle: "(Visualization and Data Analytics Course)",
+            img_path: "tableau.png",
             description:
-                "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
+                "The goal of this project was to analyze the security of Chicago," +
+                " using several public datasets. The analysis was done using Tableau dashboards. Grade: 20 / 20 mark.",
             tags: [
                 {
-                    lang: "ongoing",
-                    color: "red",
-                },
-                {
-                    lang: "Streamlit",
-                    color: "#ff4b4b",
+                    lang: "Tableau",
+                    color: "#10b0ea",
                 },
             ],
-            link: "",
-            code: "",
-            linkcolor: "white",
+            link: "https://drive.google.com/file/d/1ytPRTztOA1yJ-8imzq9kJPdt-TRtpUWj/view?usp=drive_link",
+            linkcolor: "black",
         },
         {
-            title: "Youtube Thumbnail Generator & AutoUploader",
-            img_path: "project-02.png",
+            title: "Performance Analysis of Geospatial Queries Using Pre-Aggregates",
+            subTitle: "(Data Modelling Course)",
+            img_path: "postgres.png",
             description:
-                "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+                "Using my master's thesis theme, the goal of this project was to analyze the performance" +
+                "of some geospatial queries based on datasets with the territory characteristics of Mação." +
+                " Grade: 20 / 20 mark.",
             tags: [
                 {
-                    lang: "internal project",
-                    color: "red",
-                },
-                {
-                    lang: "youtube v3 api",
-                    color: "red",
+                    lang: "PostgreSQL + PostGIS",
+                    color: "#10b0ea",
                 },
             ],
-            link: "",
-            code: "",
-            linkcolor: "white",
-        },
-
-        {
-            title: "Newsearcher",
-            img_path: "news.gif",
-            description:
-                "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-            tags: [
-                {
-                    lang: "python",
-                    color: "#004782",
-                },
-                {
-                    lang: "newspaper3k",
-                    color: "#303030",
-                },
-                {
-                    lang: "Streamlit",
-                    color: "#ff4b4b",
-                },
-                {
-                    lang: "nltk",
-                    color: "#051c61",
-                },
-            ],
-            link: "https://newsearcher.herokuapp.com/",
-            code: "https://github.com/rohankokkula/Newsearcher",
-            linkcolor: "white",
+            link: "https://drive.google.com/file/d/15HE3NUAUYoUWz-QFqz7qRAhFIrQ4A87D/view?usp=drive_link",
+            linkcolor: "black",
         },
         {
-            title: "ActiWeight",
-            img_path: "acti.gif",
+            title: "Chat",
+            img_path: "azure.png",
+            subTitle: "(Cloud Computing Systems Course)",
             description:
-                "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+                "The goal of this project was to develop a chat application back-end, Discord like," +
+                " with the use of a cloud database and a cloud computing system, in this case, Azure. Grade: 19 / 20 mark.",
             tags: [
                 {
-                    lang: "python",
-                    color: "#004782",
+                    lang: "Java",
+                    color: "#e59909",
                 },
                 {
-                    lang: "matplotlib",
-                    color: "#c47206",
+                    lang: "Redis",
+                    color: "#ec0e37",
                 },
                 {
-                    lang: "Streamlit",
-                    color: "#ff4b4b",
+                    lang: "Cosmos DB",
+                    color: "#12ec98",
                 },
                 {
-                    lang: "Heroku",
-                    color: "#3c0095",
+                    lang: "Databricks",
+                    color: "#a81a33",
+                },
+                {
+                    lang: "Spark",
+                    color: "#e1c511",
                 },
             ],
-            link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-            code: "https://github.com/rohankokkula/Actiweight",
-            linkcolor: "white",
+            linkcolor: "black",
         },
     ],
 };
@@ -414,13 +376,19 @@ const resumeright = {
                     companies: ["fct.png"],
                     date: "Sept. 2018 - Dec. 2023",
                     content: [<span>Bachelor Degree: Final grade - <b>17 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
+                        <a target="_blank"
+                           href={"https://drive.google.com/file/d/1s-azyCqSU8Uy9qh5XuCNGHviL2LSJFSt/view?usp=drive_link"}> Bachelor's
+                            certificate</a>,
                         <span>Master's Degree: Final grade - <b>18 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
+                        <a target="_blank"
+                           href={"https://drive.google.com/file/d/1e9pHEilMFKkeXvAX2DtUkWXIaV-OufTH/view?usp=drive_link"}> Master's
+                            certificate</a>,
                         <span>Master's Thesis: <a target="_blank" href={"https://run.unl.pt/handle/10362/163563"}> Decision Support System for the Integrated Areas of the Territory </a> </span>,
                         <span>Master's Thesis Grade: <b>19 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
                         <span>Master's Main Courses:<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Data Visualization and Analysis <br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Data Modeling<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Database Systems<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Visualization and Data Analytics <br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Data Modelling<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Databases Systems<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;• Concurrency and Parallelism<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;• Cloud Computing Systems<br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;• Information Retrieval<br/>
@@ -502,7 +470,8 @@ const contactPageData = {
         title: "Contact Me",
         profile_image_path: "contact.jpg",
         description:
-            "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Cloud and Opensource Development.",
+            "I am available on almost every social media." +
+            " You can message me, I will reply as soon as I can.",
     },
     addressSection: {
         title: "Address",
@@ -529,12 +498,12 @@ const socialMediaLinks = [
         fontAwesomeIcon: "logos-linkedin-icon", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
         backgroundColor: "rgb(0,119,181)", // Reference https://simpleicons.org/?q=linkedin
     },
-    {
-        name: "Email",
-        link: "mailto:marciab.matias@hotmail.com",
-        fontAwesomeIcon: "vscode-icons:file-type-outlook", // Reference https://fontawesome.com/icons/google?style=brands
-        backgroundColor: "#126ce5", // Reference https://simpleicons.org/?q=gmail
-    },
+    // {
+    //     name: "Email",
+    //     link: "mailto:marciab.matias@hotmail.com",
+    //     fontAwesomeIcon: "vscode-icons:file-type-outlook", // Reference https://fontawesome.com/icons/google?style=brands
+    //     backgroundColor: "#126ce5", // Reference https://simpleicons.org/?q=gmail
+    // },
 ];
 
 const languages = [

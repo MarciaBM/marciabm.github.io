@@ -9,7 +9,7 @@ export default function AddressImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: "src/pages/contact/contact.json"
+        path: "src/pages/contact/cont.json"
       })
     }, [])
     return (

@@ -1,6 +1,9 @@
 .social-media-div {
   margin-top: 10px;
   font-size: 2em;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
 }
 
 .icon-button i {
@@ -70,12 +73,18 @@ Hover Transition .twitter i:hover,
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
+    justify-content: center;
+    display: flex;
+    gap: 5px;
     margin-top: 100px;
     text-align: center;
   }
 }
 @media (max-width: 480px) {
   .social-media-div {
+    justify-content: center;
+    display: flex;
+    gap: 5px;
     text-align: center;
     margin-bottom: 0px;
   }
