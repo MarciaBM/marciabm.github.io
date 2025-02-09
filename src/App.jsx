@@ -5,6 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
 
+
 function App() {
   useEffect(() => {
     // Change this below tracking id to your own

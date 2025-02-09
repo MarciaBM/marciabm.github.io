@@ -1,5 +1,6 @@
 import React from "react";
 import "./TopButton.css";
+import {Icon} from "@iconify/react";
 
 export default function TopButton({ theme }) {
   function GoUpEvent() {
@@ -59,7 +60,8 @@ export default function TopButton({ theme }) {
       onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
       onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
     >
-      <i className="fas fa-arrow-up" id="arrow" aria-hidden="true" />
+      <Icon icon={"mingcute:arrow-up-fill"} id="arrow" />
+      {/*<i className="iconify" data-icon={"mingcute--arrow-up-fill"} id="arrow" aria-hidden="true" />*/}
     </div>
   );
 }
