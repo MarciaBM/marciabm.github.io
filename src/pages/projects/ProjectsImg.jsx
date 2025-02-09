@@ -9,7 +9,7 @@ export default function ProjectsImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: "src/pages/projects/projects.json"
+        path: "lottie-files/projects/projects.json"
       })
     }, [])
     return (

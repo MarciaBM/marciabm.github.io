@@ -12,7 +12,7 @@ export default function DataScienceImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/containers/skills/datascience/data3.json'
+        path: 'lottie-files/skills/datascience/data3.json'
       })
     }, [])
     return (

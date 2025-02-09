@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "datasciencefolio",
-  "version": "0.1.0",
+  "name": "marcia-portifolio",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

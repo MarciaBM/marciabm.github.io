@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import { settings } from "../../portfolio.jsx";
 import SeoHeader from "../seoHeader/SeoHeader.jsx";
 // import { Navbar } from "react-bootstrap";
-import logo from "../../assets/logo/logo.png";
+import logo from "../../../public/assets/logo/logo.png";
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.borderRadius = "5px"

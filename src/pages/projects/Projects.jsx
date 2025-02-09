@@ -48,7 +48,7 @@ class Projects extends Component {
                                 <div style={{height: "150px", display: "flex", alignItems: "center", justifyContent: "center"}}>
                                     <Card.Img
                                         variant="top"
-                                        src={`src/assets/projects/${proj.img_path}`}
+                                        src={`assets/projects/${proj.img_path}`}
                                     />
                                 </div>
                                 <Card.Body>

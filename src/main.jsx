@@ -5,7 +5,7 @@ import {Client as Styletron} from "styletron-engine-atomic";
 import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App.jsx";
-import "./assets/font-awesome/css/all.css";
+import "../public/assets/font-awesome/css/all.css";
 import ReactDOM from "react-dom";
 
 const engine = new Styletron();

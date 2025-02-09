@@ -9,7 +9,7 @@ export default function EducationImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/pages/EduEx/edu4.json'
+        path: 'lottie-files/EduEx/edu4.json'
       })
     }, [])
     return (

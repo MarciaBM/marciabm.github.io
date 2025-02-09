@@ -78,7 +78,7 @@ export default function Greeting(props) {
                     </div>
                     <div className="greeting-image-div">
                         <BannerImg className={"under"}/>
-                        <img className={"over"} src={"src/containers/greeting/me.jpg"} alt={""}/>
+                        <img className={"over"} src={"assets/greeting/me.jpg"} alt={""}/>
                     </div>
                 </div>
             </div>

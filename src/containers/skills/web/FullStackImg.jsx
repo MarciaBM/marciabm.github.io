@@ -10,7 +10,7 @@ export default function FullStackImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/containers/skills/web/web.json'
+        path: 'lottie-files/skills/web/web.json'
       })
     }, [])
     return (

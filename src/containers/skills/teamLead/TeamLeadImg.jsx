@@ -10,7 +10,7 @@ export default function TeamLeadImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/containers/skills/teamLead/team_lead.json'
+        path: 'lottie-files/skills/teamLead/team_lead.json'
       })
     }, [])
     return (

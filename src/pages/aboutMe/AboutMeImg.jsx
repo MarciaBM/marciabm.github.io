@@ -9,7 +9,7 @@ export default function AboutMeImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/pages/aboutMe/about2.json'
+        path: 'lottie-files/aboutMe/about2.json'
       })
     }, [])
     return (

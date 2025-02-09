@@ -12,7 +12,7 @@ function ResumeContent(props) {
                 {props.companies?.map((company) => {
                     return (
                         <>
-                            <img src={"src/assets/companies/" + company} className="resume-logo" alt={""}/>
+                            <img src={"assets/companies/" + company} className="resume-logo" alt={""}/>
                         </>
                     );
                 })

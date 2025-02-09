@@ -13,7 +13,7 @@ export default function BannerImg(props){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'src/containers/greeting/back.json',
+        path: 'lottie-files/greeting/back.json',
         height: '1024px'
       })
     }, [])
