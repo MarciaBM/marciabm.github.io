@@ -44,13 +44,15 @@ class AboutMeComponent extends Component {
                             <div>
                                 <h3>Main Soft Skills</h3>
                                 <div className="soft-skills">
-                                    {softSkills.map(s => <span>{s}</span>)}
+                                    {softSkills.map((s, index) => <span key={index}>{s}</span>)}
                                 </div>
                             </div>
                             <br/>
                             <div>
                                 <h3>My Hobbies and Interests</h3>
-                                <SoftwareSkill logos={hobbies}/>
+                                <div className={"hobbies"}>
+                                    <SoftwareSkill logos={hobbies}/>
+                                </div>
                             </div>
                         </div>
                     </div>

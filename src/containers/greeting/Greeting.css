@@ -47,6 +47,12 @@
     align-items: center;
 }
 
+.greeting-name{
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+
 .under {
     /*position: absolute;*/
     right: 0px;
@@ -118,6 +124,10 @@
         /*position: absolute;*/
         width: 30vw;
     }
+
+    .greeting-main {
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
@@ -134,6 +144,7 @@
 
     .button-greeting-div {
         justify-content: space-around;
+        flex-direction: column;
     }
 
     .greeting-text {
@@ -180,6 +191,7 @@
 @media (max-width: 480px) {
     .button-greeting-div {
         justify-content: space-around;
+        flex-direction: column;
     }
 
     .greeting-text {

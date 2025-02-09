@@ -1,5 +1,5 @@
 const settings = {
-    isSplash: true, // Change this to false if you don't want Splash screen.
+    isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -10,7 +10,7 @@ const seo = {
     og: {
         title: "Márcia Portfolio",
         type: "website",
-        url: "http://rohankokkula.ml/",
+        url: "https://marciabm.github.io/",
     },
 };
 
@@ -19,7 +19,8 @@ const greeting = {
     title: "Hello!",
     sub: "Márcia Matias",
     logo_name: "Márcia Matias",
-    resumeLink: "",
+    resumeLinkPT: "https://drive.google.com/file/d/1OWxaL91urPPg9OlFWunv3KJ05pL87r7M/view?usp=drive_link",
+    resumeLinkENG: "https://drive.google.com/file/d/1k00iPZJzdoD2i1SPoMGSoEHqxSn9eCOr/view?usp=drive_link",
 };
 
 // home logos
@@ -116,13 +117,12 @@ const skills = {
         },
 
         {
-            title: "Data Analysis",
+            title: "Data",
             fileName: "DataScienceImg",
             skills: [
-                "⚡ Developing highly scalable production-ready models for various deep learning and statistical use cases",
-                "⚡ Experience in working with Computer Vision using OpenCV and NLP projects(T5-Transformer & OpenAI)",
-                "⚡ Having good hands-on with Data Cleaning, processing & Analysing using Pandas, Tableau & PowerBI",
-                "⚡ Experience with Text-to-speech encoders/decoders (speech synthesis) & Voice Cloning",
+                "⚡ Experience in data analysis and visualization, which was also my focus area during my master's degree.",
+                "⚡ Experience with geospatial data, specially PostGIS and GeoTools.",
+                "⚡ Having good hands-on with Tableau.",
             ],
             softwareSkills: [
                 {
@@ -198,8 +198,7 @@ const projectcards = {
                     color: "#c30fd7",
                 },
             ],
-            link: "https://teath.herokuapp.com ",
-            // code: "https://github.com/rohankokkula/TEATH",
+            link: "https://land-it.github.io",
             linkcolor: "black",
         },
 
@@ -243,8 +242,6 @@ const projectcards = {
                     color: "#06c42c",
                 },
             ],
-            // link: "https://neuralviz.herokuapp.com/",
-            // code: "https://github.com/rohankokkula/neuralviz",
             linkcolor: "black",
         },
         {
@@ -375,23 +372,29 @@ const resumeright = {
                     subtitle: "NOVA School of Science and Technology",
                     companies: ["fct.png"],
                     date: "Sept. 2018 - Dec. 2023",
-                    content: [<span>Bachelor Degree: Final grade - <b>17 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
-                        <a target="_blank"
-                           href={"https://drive.google.com/file/d/1s-azyCqSU8Uy9qh5XuCNGHviL2LSJFSt/view?usp=drive_link"}> Bachelor's
-                            certificate</a>,
-                        <span>Master's Degree: Final grade - <b>18 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
-                        <a target="_blank"
-                           href={"https://drive.google.com/file/d/1e9pHEilMFKkeXvAX2DtUkWXIaV-OufTH/view?usp=drive_link"}> Master's
-                            certificate</a>,
-                        <span>Master's Thesis: <a target="_blank" href={"https://run.unl.pt/handle/10362/163563"}> Decision Support System for the Integrated Areas of the Territory </a> </span>,
-                        <span>Master's Thesis Grade: <b>19 mark</b> | A (scale: 0-20 | ECTS grading system)</span>,
-                        <span>Master's Main Courses:<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Visualization and Data Analytics <br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Data Modelling<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Databases Systems<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Concurrency and Parallelism<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Cloud Computing Systems<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Information Retrieval<br/>
+                    content: [
+                        <span><b>Bachelor Degree</b><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Final grade - 17 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• <a target="_blank"
+                                                         href={"https://drive.google.com/file/d/1s-azyCqSU8Uy9qh5XuCNGHviL2LSJFSt/view?usp=drive_link"}> Certificate</a><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Research Project: <a target="_blank"
+                                                                           href={"https://drive.google.com/file/d/1FTNs24QeeYogWHhZp9s_ggy4zCTTc9wB/view?usp=drive_link"}>Java Collections with Data-Centric Concurrency</a><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Project Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                        </span>,
+                        <span><b>Master's Degree</b><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Final grade - 18 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• <a target="_blank"
+                                                         href={"https://drive.google.com/file/d/1e9pHEilMFKkeXvAX2DtUkWXIaV-OufTH/view?usp=drive_link"}> Certificate</a><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Thesis: <a target="_blank"
+                                                                 href={"https://run.unl.pt/handle/10362/163563"}> Decision Support System for the Integrated Areas of the Territory </a> <br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Thesis Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;• Main Courses:<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Visualization and Data Analytics <br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Data Modelling<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Databases Systems<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Concurrency and Parallelism<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Cloud Computing Systems<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Information Retrieval<br/>
                         </span>
 
                     ]

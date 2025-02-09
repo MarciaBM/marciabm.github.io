@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header.jsx";
 import Footer from "../../components/footer/Footer.jsx";
 import TopButton from "../../components/topButton/TopButton.jsx";
-import SocialMedia from "../../components/socialMedia/SocialMedia.jsx";
 import Button from "../../components/button/Button.jsx";
 import AddressImg from "./AddressImg.jsx";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { contactPageData } from "../../portfolio.jsx";
+import {competitiveSites, contactPageData} from "../../portfolio.jsx";
+import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites.jsx";
 
 const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
@@ -38,7 +38,7 @@ class Contact extends Component {
                 >
                   {ContactData["description"]}
                 </p>
-                <SocialMedia theme={theme} />
+                <CompetitiveSites logos={competitiveSites.competitiveSites}/>
                 <div className="resume-btn-div">
                   <Button
                     text="Drop a mail"

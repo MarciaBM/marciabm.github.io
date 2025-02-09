@@ -9,7 +9,7 @@ export default function SkillsSet(props) {
             <Container>
                 <h3>{props.name}</h3>
                 <div style={{display: "flex", flexDirection: "column", gap: "10px"}}>
-                    {props.skills.map(p => <Skill skill={p}/>)}</div>
+                    {props.skills.map((p, index) => <div key={index}><Skill skill={p}/></div>)}</div>
             </Container>
         </Container>
     );

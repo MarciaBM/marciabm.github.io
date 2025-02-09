@@ -25,7 +25,7 @@ class SkillSection extends Component {
       <div>
         {skills.data.map((skill, index) => {
           return (
-            <div key={index} className="skills-main-div" style={{flexDirection: index %2 == 0 ? "row-reverse": "unset"}}>
+            <div key={index} className="skills-main-div">
               <Fade left={index %2 != 0} right={index %2 == 0} duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />

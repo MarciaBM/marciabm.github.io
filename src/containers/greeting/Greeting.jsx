@@ -19,9 +19,14 @@ export default function Greeting(props) {
                         <h1 className="greeting-text" style={{color: theme.orange}}>
                             {greeting.title}
                         </h1>
-                        <h1 className="greeting-sub" style={{color: theme.grayText}}>
-                            I'm <mark data-entity="person">{greeting.sub}</mark>
-                        </h1>
+                        <div className={"greeting-name"}>
+                            <h1 className="greeting-sub" style={{color: theme.grayText}}>
+                                I'm
+                            </h1>
+                            <h1 className="greeting-sub">
+                                {greeting.sub}
+                            </h1>
+                        </div>
                         <h1 className="greeting-typewriter" style={{color: theme.blue, whiteSpace: "pre-wrap"}}>
                             <Typewriter
                                 onInit={(typewriter) => {
@@ -33,9 +38,6 @@ export default function Greeting(props) {
                                         .pauseFor(200)
                                         .deleteAll()
                                         .typeString("Science and Computer Engineer")
-                                        .pauseFor(200)
-                                        .deleteAll()
-                                        .typeString("Data Engineer")
                                         .pauseFor(200)
                                         .start();
                                 }}
@@ -49,21 +51,28 @@ export default function Greeting(props) {
                             className="greeting-text-span subTitle"
                             style={{color: theme.text}}>
                 <div className="entities">
-                  A <mark data-entity="noun">science and computer engineer</mark>{" "}
-                    who is <mark data-entity="verb">passionated</mark>{" "} about {" "}
-                    <mark data-entity="noun">data analysis and engineering</mark>,
-                  and has recently worked on the {" "}
-                    <mark data-entity="skill">full-stack development</mark> of the LAND IT project,
-                  a supporting decision system.
+                  A <b style={{color: "var(--themeBlue)"}}>science and computer engineer</b> who is passionated about
+                    <b style={{color: "var(--themeOrange)"}}> data analysis and engineering</b>,
+                  and has recently worked on the
+                    full-stack development of the LAND IT project,
+                    a web-based decision supporting system. Additionally,
+                    I have experience in <b style={{color: "var(--themeBlue)"}}>client communication </b>
+                    and <b style={{color: "var(--themeOrange)"}}>managing a small team of developers</b>.
+
                 </div>
               </span>
                         <CompetitiveSites logos={competitiveSites.competitiveSites}/>
                         <div className="button-greeting-div">
                             <Button text="Contact me" href="/contact"/>
                             <Button
-                                text="See my resume"
+                                text="My resume (ENG)"
                                 newTab={true}
-                                href={greeting.resumeLink}
+                                href={greeting.resumeLinkENG}
+                            />
+                            <Button
+                                text="My resume (PT)"
+                                newTab={true}
+                                href={greeting.resumeLinkPT}
                             />
                         </div>
                     </div>

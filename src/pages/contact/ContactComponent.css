@@ -5,6 +5,7 @@
 .basic-contact {
   margin-left: 5%;
   margin-right: 5%;
+  height: 79vh;
 }
 
 .contact-heading-div {
@@ -139,6 +140,11 @@
 }
 
 @media (max-width: 768px) {
+
+  .basic-contact{
+    height: auto;
+  }
+
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;

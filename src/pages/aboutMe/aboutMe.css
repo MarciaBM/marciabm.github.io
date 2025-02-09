@@ -1,5 +1,5 @@
 .about-main {
-    width: 100%;
+    width: 99vw;
 }
 
 .basic-about {
@@ -47,6 +47,10 @@
     line-height: 1.1;
     text-align: center;
     margin-top: 100px;
+}
+
+.hobbies{
+    margin-top: 10px;
 }
 
 .heading-sub-text-about {

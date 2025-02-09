@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import { settings } from "../../portfolio.jsx";
 import SeoHeader from "../seoHeader/SeoHeader.jsx";
 // import { Navbar } from "react-bootstrap";
-import logo from "../../assets/logo/logo-01.png";
+import logo from "../../assets/logo/logo.png";
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.borderRadius = "5px"
@@ -21,7 +21,7 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    const link = settings.isSplash ? "/splash" : "home";
+    const link = settings.isSplash ? "/splash" : "/home";
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />

@@ -6,23 +6,12 @@ import Education from "../pages/EduEx/EducationComponent.jsx";
 import Contact from "../pages/contact/ContactComponent.jsx";
 import Projects from "../pages/projects/Projects.jsx";
 import { settings } from "../portfolio.jsx";
-
-import ReactGA from "react-ga";
 import AboutMeComponent from "../pages/aboutMe/AboutMeComponent.jsx";
 
 // Initialize Google Analytics page tracking
-ReactGA.initialize("YOUR_GOOGLE_ANALYTICS_TRACKING_ID");
+// ReactGA.initialize("YOUR_GOOGLE_ANALYTICS_TRACKING_ID");
 
 class Main extends Component {
-  componentDidMount() {
-    // Track page view on mount
-    this.trackPageView(window.location.pathname);
-  }
-
-  trackPageView = (pathname) => {
-    ReactGA.pageview(pathname);
-    console.log(`Page viewed: ${pathname}`);
-  };
 
   render() {
     return (

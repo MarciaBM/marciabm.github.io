@@ -42,9 +42,9 @@ class Projects extends Component {
                 </div>
                 <div className="repo-cards-div-main">
                     {/*<CardColumns>*/}
-                    {projectcards.list.map((proj) => {
+                    {projectcards.list.map((proj, index) => {
                         return (
-                            <Card className="h-100">
+                            <Card key={index} className="h-100">
                                 <div style={{height: "150px", display: "flex", alignItems: "center", justifyContent: "center"}}>
                                     <Card.Img
                                         variant="top"
@@ -91,9 +91,9 @@ class Projects extends Component {
                                         </h4>
                                     </Card.Title>
                                     <div>
-                                        {proj.tags.map((demo2) => {
+                                        {proj.tags.map((demo2, index) => {
                                             return (
-                                                <Badge
+                                                <Badge key={index}
                                                     style={{
                                                         marginRight: "0.5em",
                                                         backgroundColor: demo2.color,
@@ -116,13 +116,6 @@ class Projects extends Component {
                     })}
                     {/*</CardColumns>*/}
                 </div>
-                {/*<Button*/}
-                {/*  text={"More Projects"}*/}
-                {/*  className="project-button"*/}
-                {/*  href="https://github.com/rohankokkula"*/}
-                {/*  newTab={true}*/}
-                {/*  theme={theme}*/}
-                {/*/>*/}
                 <Footer theme={this.props.theme} onToggle={this.props.onToggle}/>
                 <TopButton theme={this.props.theme}/>
             </div>
