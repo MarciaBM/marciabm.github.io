@@ -55,7 +55,7 @@ export default function Greeting(props) {
                     <b style={{color: "var(--themeOrange)"}}> data analysis and engineering</b>,
                   and has recently worked on the
                     full-stack development of the LAND IT project,
-                    a web-based decision supporting system. Additionally,
+                    a web-based decision supporting system for territory management. Additionally,
                     I have experience in <b style={{color: "var(--themeBlue)"}}>client communication </b>
                     and <b style={{color: "var(--themeOrange)"}}>managing a small team of developers</b>.
 
