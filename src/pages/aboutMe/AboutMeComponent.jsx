@@ -3,7 +3,7 @@ import Header from "../../components/header/Header.jsx";
 import Footer from "../../components/footer/Footer.jsx";
 import TopButton from "../../components/topButton/TopButton.jsx";
 import "./aboutMe.css";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import AboutMeImg from "./AboutMeImg.jsx";
 import SkillsSet from "./SkillsSet.jsx";
 import {hobbies, idioms, languages, softSkills} from "../../portfolio.jsx";
@@ -16,7 +16,7 @@ class AboutMeComponent extends Component {
             <div className={"about-main"}>
                 <Header theme={theme}/>
                 <div className="basic-about">
-                    <Fade bottom duration={2000} distance="40px">
+                    <Fade direction={"up"} duration={2000} triggerOnce={true}>
                         <div className="heading-div-about">
                             <div className="heading-img-div-about">
                                 <AboutMeImg theme={theme}/>

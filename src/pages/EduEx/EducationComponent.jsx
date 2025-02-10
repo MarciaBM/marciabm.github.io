@@ -8,7 +8,7 @@ import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites
 import EducationImg from "./EducationImg.jsx";
 import { competitiveSites } from "../../portfolio.jsx";
 import "./EducationComponent.css";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import Resume from "./Resume.jsx";
 
 class Education extends Component {
@@ -18,7 +18,7 @@ class Education extends Component {
       <div className="education-main">
         <Header theme={this.props.theme} />
         <div className="basic-education">
-          <Fade bottom duration={2000} distance="40px">
+          <Fade direction={"up"} duration={2000} triggerOnce={true}>
             <div className="heading-div">
               <div className="heading-img-div">
                 <EducationImg theme={theme} />

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Header.css";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { settings } from "../../portfolio.jsx";
 import SeoHeader from "../seoHeader/SeoHeader.jsx";
@@ -23,7 +23,7 @@ class Header extends Component {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "/home";
     return (
-      <Fade top duration={1000} distance="20px">
+      <Fade direction={"down"} duration={1000} triggerOnce={true}>
         <SeoHeader />
         <div>
           <header className="header">

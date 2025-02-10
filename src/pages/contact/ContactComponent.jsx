@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer.jsx";
 import TopButton from "../../components/topButton/TopButton.jsx";
 import Button from "../../components/button/Button.jsx";
 import AddressImg from "./AddressImg.jsx";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import "./ContactComponent.css";
 import {competitiveSites, contactPageData} from "../../portfolio.jsx";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites.jsx";
@@ -20,7 +20,7 @@ class Contact extends Component {
       <div className="contact-main">
         <Header theme={theme} />
         <div className="basic-contact">
-          <Fade bottom duration={1000} distance="40px">
+          <Fade direction={"up"} duration={1000} triggerOnce={true}>
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 <AddressImg theme={theme} />

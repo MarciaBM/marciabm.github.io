@@ -1,6 +1,6 @@
 import React from "react";
 import "./CompetitiveSites.css";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import {Tooltip} from "react-tooltip";
 
 class CompetitiveSites extends React.Component {
   render() {
@@ -9,17 +9,9 @@ class CompetitiveSites extends React.Component {
         <ul className="dev-icons">
           {this.props.logos.map((logo) => {
             return (
-              <OverlayTrigger
-                key={logo.siteName}
-                placement={"top"}
-                style={{ marginBottom: "5px" }}
-                overlay={
-                  <Tooltip id={`tooltip-top`}>
-                    <strong>{logo.siteName}</strong>
-                  </Tooltip>
-                }
-              >
-                <li className="competitive-sites-inline" name={logo.siteName}>
+                <li className="competitive-sites-inline"
+                    data-tooltip-id="my-tooltip2" data-tooltip-content={logo.siteName}
+                    name={logo.siteName}>
                   <a
                     href={logo.profileLink}
                     target="_blank"
@@ -33,10 +25,11 @@ class CompetitiveSites extends React.Component {
                     ></span>
                   </a>
                 </li>
-              </OverlayTrigger>
             );
           })}
         </ul>
+          <Tooltip id="my-tooltip2" style={{ backgroundColor: "rgb(255,255,255)",
+              fontWeight: "bold", color: "#000000" }} />
       </div>
     );
   }

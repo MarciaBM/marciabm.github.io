@@ -93,10 +93,8 @@
 .contact-header-detail-text {
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
   font-family: "Google Sans Medium";
+  margin: 0px 20px 40px;
 }
 
 .blog-header-detail-text {

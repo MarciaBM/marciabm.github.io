@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill.jsx";
 import { skills } from "../../portfolio.jsx";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import DataScienceImg from "./datascience/DataScienceImg.jsx";
 import FullStackImg from "./web/FullStackImg.jsx";
 import TeamLeadImg from "./teamLead/TeamLeadImg.jsx";
@@ -26,21 +26,21 @@ class SkillSection extends Component {
         {skills.data.map((skill, index) => {
           return (
             <div key={index} className="skills-main-div">
-              <Fade left={index %2 != 0} right={index %2 == 0} duration={2000}>
+              <Fade direction={index %2 == 0 ? "right" : "left"} duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
               <div className="skills-text-div">
-                <Fade right={index %2 != 0} left={index %2 == 0} duration={1000}>
+                <Fade direction={index %2 == 0 ? "left" : "right"} duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.blue }}>
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right={index %2 != 0} left={index %2 == 0} duration={1500}>
+                <Fade direction={index %2 == 0 ? "left" : "right"} duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
-                <Fade right={index %2 != 0} left={index %2 == 0} duration={2000}>
+                <Fade direction={index %2 == 0 ? "left" : "right"} duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence, index2) => {
                       return (

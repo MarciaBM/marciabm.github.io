@@ -4,12 +4,13 @@ import Footer from "../../components/footer/Footer.jsx";
 import Button from "../../components/button/Button.jsx";
 import Badge from "react-bootstrap/Badge";
 import TopButton from "../../components/topButton/TopButton.jsx";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import {projectsHeader} from "../../portfolio.jsx";
 import {projectcards} from "../../portfolio.jsx";
 import {Card} from "react-bootstrap";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg.jsx";
+import {Icon} from "@iconify/react";
 
 class Projects extends Component {
     render() {
@@ -18,7 +19,7 @@ class Projects extends Component {
             <div className="projects-main">
                 <Header theme={theme}/>
                 <div className="basic-projects">
-                    <Fade bottom duration={2000} distance="40px">
+                    <Fade direction={"up"} duration={2000} triggerOnce={true}>
                         <div className="projects-heading-div">
                             <div className="projects-heading-img-div">
                                 <ProjectsImg theme={theme}/>
@@ -61,13 +62,12 @@ class Projects extends Component {
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                             >
-                                                <i
-                                                    className={`fas fa-external-link-alt`}
-                                                    style={{
-                                                        color: proj.linkcolor,
-                                                        marginLeft: "10px",
-                                                    }}
-                                                ></i>
+                                                <Icon style={{
+                                                    color: proj.linkcolor,
+                                                    marginLeft: "10px",
+                                                }} icon={
+                                                    "mage:external-link"
+                                                }/>
                                             </a>}
                                             {proj.code && <a
                                                 style={{color: theme.text}}

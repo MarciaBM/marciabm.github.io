@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Certifications.css";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import { certifications } from "../../portfolio.jsx";
 import CertificationCard from "../../components/certificationCard/CertificationCard.jsx";
 
@@ -10,7 +10,7 @@ class Certifications extends Component {
     return (
       <div className="main" id="certs">
         <div className="certs-header-div">
-          <Fade bottom duration={2000} distance="20px">
+          <Fade direction={"up"} duration={2000} distance="20px">
             <h1 className="certs-header" style={{ color: theme.text }}>
               Certifications &#38; Badges
             </h1>

@@ -3,7 +3,7 @@ import "./Greeting.css";
 // import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button.jsx";
 import {greeting} from "../../portfolio.jsx";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import BannerImg from "./BannerImg.jsx";
 import Typewriter from "typewriter-effect";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites.jsx";
@@ -12,7 +12,7 @@ import {competitiveSites} from "../../portfolio.jsx";
 export default function Greeting(props) {
     const theme = props.theme;
     return (
-        <Fade bottom duration={2000} distance="40px">
+        <Fade direction={"up"} duration={2000} triggerOnce={true}>
             <div className="greet-main" id="greeting">
                 <div className="greeting-main">
                     <div className="greeting-text-div">

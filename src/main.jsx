@@ -5,16 +5,15 @@ import {Client as Styletron} from "styletron-engine-atomic";
 import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App.jsx";
-import ReactDOM from "react-dom";
+import {createRoot} from "react-dom/client";
 
 const engine = new Styletron();
-ReactDOM.render(
+createRoot(document.getElementById('root')).render(
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>
       <App />
     </BaseProvider>
-  </StyletronProvider>,
-  document.getElementById("root")
+  </StyletronProvider>
 );
 
 // createRoot(document.getElementById('root')).render(

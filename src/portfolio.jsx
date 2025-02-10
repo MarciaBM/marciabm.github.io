@@ -332,7 +332,7 @@ const resumeleft = {
                 companies: ["fct.png", "azr.png"],
                 content: [
                     "Full-Stack Developer for the LAND IT project, which was also my Master's thesis, created from scratch",
-                    "The LAND IT project is a decision support system for land management, in specific for the AIGP (PRR)",
+                    "The LAND IT project is a decision support system for land management, in specific for the AIGP (Integrated Landscape Management Areas)",
                     "This web application uses Quarkus, PostgreSQL, ReactJS, and OpenLayers",
                     "Worked with large amounts of geospatial data, cleaning and organizing them",
                 ],
