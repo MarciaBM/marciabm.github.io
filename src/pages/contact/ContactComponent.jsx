@@ -41,7 +41,7 @@ class Contact extends Component {
                 <CompetitiveSites logos={competitiveSites.competitiveSites}/>
                 <div className="resume-btn-div">
                   <Button
-                    text="Drop a mail"
+                    text="Drop me an email"
                     newTab={true}
                     href="mailto:marciab.matias@hotmail.com"
                     theme={theme}

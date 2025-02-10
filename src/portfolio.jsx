@@ -374,27 +374,26 @@ const resumeright = {
                     date: "Sept. 2018 - Dec. 2023",
                     content: [
                         <span><b>Bachelor Degree</b><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Final grade - 17 mark | A (scale: 0-20 | ECTS grading system)<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• <a target="_blank"
-                                                         href={"https://drive.google.com/file/d/1s-azyCqSU8Uy9qh5XuCNGHviL2LSJFSt/view?usp=drive_link"}> Certificate</a><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Research Project: <a target="_blank"
-                                                                           href={"https://drive.google.com/file/d/1FTNs24QeeYogWHhZp9s_ggy4zCTTc9wB/view?usp=drive_link"}>Java Collections with Data-Centric Concurrency</a><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Project Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                            &emsp;• Final grade - 17 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                            &emsp;• <a target="_blank"
+                                       href={"https://drive.google.com/file/d/1s-azyCqSU8Uy9qh5XuCNGHviL2LSJFSt/view?usp=drive_link"}> Certificate</a><br/>
+                            &emsp;• Research Project: <a target="_blank" href={"https://drive.google.com/file/d/1FTNs24QeeYogWHhZp9s_ggy4zCTTc9wB/view?usp=drive_link"}>Java Collections with Data-Centric Concurrency</a><br/>
+                            &emsp;• Project Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
                         </span>,
                         <span><b>Master's Degree</b><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Final grade - 18 mark | A (scale: 0-20 | ECTS grading system)<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• <a target="_blank"
+                            &emsp;• Final grade - 18 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                            &emsp;• <a target="_blank"
                                                          href={"https://drive.google.com/file/d/1e9pHEilMFKkeXvAX2DtUkWXIaV-OufTH/view?usp=drive_link"}> Certificate</a><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Thesis: <a target="_blank"
+                            &emsp;• Thesis: <a target="_blank"
                                                                  href={"https://run.unl.pt/handle/10362/163563"}> Decision Support System for the Integrated Areas of the Territory </a> <br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Thesis Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;• Main Courses:<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Visualization and Data Analytics <br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Data Modelling<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Databases Systems<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Concurrency and Parallelism<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Cloud Computing Systems<br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Information Retrieval<br/>
+                            &emsp;• Thesis Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
+                            &emsp;• Main Courses:<br/>
+                            &emsp;&emsp;- Visualization and Data Analytics <br/>
+                            &emsp;&emsp;- Data Modelling<br/>
+                            &emsp;&emsp;- Databases Systems<br/>
+                            &emsp;&emsp;- Concurrency and Parallelism<br/>
+                            &emsp;&emsp;- Cloud Computing Systems<br/>
+                            &emsp;&emsp;- Information Retrieval<br/>
                         </span>
 
                     ]
