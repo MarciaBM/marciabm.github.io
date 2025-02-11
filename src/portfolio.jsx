@@ -54,6 +54,7 @@ const skills = {
             skills: [
                 "⚡ Leading in the development of a web application and a Python API.",
                 "⚡ Very good skills of organisation and responsibility.",
+                "⚡ Project management.",
                 "⚡ Helped guiding eight students through theirs master's thesis.",
                 "⚡ Master's thesis reviewing.",
                 "⚡ Making contact between the stakeholders and the students.",
@@ -321,8 +322,9 @@ const resumeleft = {
                 date: "September 2024 - present",
                 companies: ["fct.png", "azr.png"],
                 content: [
-                    "Continued the implementation of the LAND IT project",
-                    "Helped guiding eight students through their master's thesis, related to the LAND IT project",
+                    "Continued the implementation of the LAND IT project.",
+                    "Reviewed and approved merge requests to ensure code quality and maintainability.",
+                    "Helped guiding eight students through their master's thesis, related to the LAND IT project."
                 ],
             },
             {
