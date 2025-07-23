@@ -54,15 +54,19 @@ const skills = {
             skills: [
                 "⚡ Leading in the development of a web application and a Python API.",
                 "⚡ Very good skills of organisation and responsibility.",
-                "⚡ Project management.",
-                "⚡ Helped guiding eight students through theirs master's thesis.",
+                "⚡ Project and team management.",
+                "⚡ Helped guiding nine students through theirs master's thesis.",
                 "⚡ Master's thesis reviewing.",
-                "⚡ Making contact between the stakeholders and the students.",
+                "⚡ Making contact between the stakeholders and the project team.",
             ],
             softwareSkills: [
                 {
                     skillName: "git",
                     fontAwesomeClassname: "logos-git-icon",
+                },
+                {
+                    skillName: "Jira",
+                    fontAwesomeClassname: "devicon:jira",
                 },
                 {
                     skillName: "Docker",
@@ -74,7 +78,7 @@ const skills = {
             title: "Full-Stack Development",
             fileName: "FullStackImg",
             skills: [
-                "⚡ Modeling and implementing spatial and relational databases using PostgreSQL & PostGIS, or similar database systems.",
+                "⚡ Modeling and implementing spatial and relational databases using PostgreSQL & PostGIS, or similar database systems (experience on systems with +60 tables).",
                 "⚡ Modeling and creating a back-end API from scratch using Java, Quarkus, or similar frameworks.",
                 "⚡ Experience in handling with spatial data, specially cleaning and organizing it.",
                 "⚡ Experience in creating front-end applications using ReactJS, NextJS, or similar frameworks.",
@@ -313,56 +317,68 @@ const projectcards = {
 };
 
 const resumeleft = {
-    left: {
-        title: ["Experience"],
-        data: [
-            {
-                title: "Lead Research Fellow | Full-Stack Developer",
-                subtitle: "NOVA School of Science and Technology & AZR",
-                date: "September 2024 - present",
-                companies: ["fct.png", "azr.png"],
-                content: [
-                    "Continued the implementation of the LAND IT project.",
-                    "Reviewed and approved merge requests to ensure code quality and maintainability.",
-                    "Helped guiding eight students through their master's thesis, related to the LAND IT project."
-                ],
-            },
-            {
-                title: "Research Fellow | Full-Stack Developer",
-                subtitle: "NOVA School of Science and Technology & AZR",
-                date: "June 2023 - August 2024",
-                companies: ["fct.png", "azr.png"],
-                content: [
-                    "Full-Stack Developer for the LAND IT project, which was also my Master's thesis, created from scratch",
-                    "The LAND IT project is a decision support system for land management, in specific for the AIGP (Integrated Landscape Management Areas)",
-                    "This web application uses Quarkus, PostgreSQL, ReactJS, and OpenLayers",
-                    "Worked with large amounts of geospatial data, cleaning and organizing them",
-                ],
-            },
-            {
-                title: "Teaching Assistant",
-                subtitle: "NOVA School of Science and Technology",
-                date: "September 2022 - January 2023",
-                companies: ["fct.png"],
-                content: [
-                    "Teaching assistant for the course of Introduction to Programming",
-                    "Taught the practical classes",
-                    "Helped students with their assignments and projects"
-                ],
-            },
-            {
-                title: "Introduction to Programming Tutor",
-                subtitle: "Autonomous",
-                companies: [],
-                date: "November 2020 - July 2022",
-                content: [
-                    "Covered programming languages: Java, C# and JavaFX",
-                    "Communication skills"
-                ],
-            },
-        ],
-    },
-};
+    left: [
+        {
+            title: ["Experience"],
+            data: [
+                {
+                    title: "Full-Stack Lead Engineer",
+                    subtitle: "Aflomação",
+                    date: "April 2025 - present",
+                    companies: ["aflomacao.png"],
+                    content: [
+                        "Continued the implementation of the LAND IT project.",
+                        "Team and project management.",
+                        "Assignment and planning of tasks in sprints.",
+                    ],
+                },
+                {
+                    title: "Lead Research Fellow | Full-Stack Developer",
+                    subtitle: "NOVA School of Science and Technology & AZR",
+                    date: "September 2024 - March 2025",
+                    companies: ["fct.png", "azr.png"],
+                    content: [
+                        "Continued the implementation of the LAND IT project.",
+                        "Reviewed and approved merge requests to ensure code quality and maintainability.",
+                        "Helped guiding eight students through their master's thesis, related to the LAND IT project."
+                    ],
+                },
+                {
+                    title: "Research Fellow | Full-Stack Developer",
+                    subtitle: "NOVA School of Science and Technology & AZR",
+                    date: "June 2023 - August 2024",
+                    companies: ["fct.png", "azr.png"],
+                    content: [
+                        "Full-Stack Developer for the LAND IT project, which was also my Master's thesis, created from scratch",
+                        "The LAND IT project is a decision support system for land management, in specific for the AIGP (Integrated Landscape Management Areas)",
+                        "This web application uses Quarkus, PostgreSQL, ReactJS, and OpenLayers",
+                        "Worked with large amounts of geospatial data, cleaning and organizing them",
+                    ],
+                },
+                {
+                    title: "Teaching Assistant",
+                    subtitle: "NOVA School of Science and Technology",
+                    date: "September 2022 - January 2023",
+                    companies: ["fct.png"],
+                    content: [
+                        "Teaching assistant for the course of Introduction to Programming",
+                        "Taught the practical classes",
+                        "Helped students with their assignments and projects"
+                    ],
+                },
+                {
+                    title: "Introduction to Programming Tutor",
+                    subtitle: "Autonomous",
+                    companies: [],
+                    date: "November 2020 - July 2022",
+                    content: [
+                        "Covered programming languages: Java, C# and JavaFX",
+                        "Communication skills"
+                    ],
+                },
+            ],
+        }]
+}
 
 const resumeright = {
     right: [
@@ -379,15 +395,16 @@ const resumeright = {
                             &emsp;• Final grade - 17 mark | A (scale: 0-20 | ECTS grading system)<br/>
                             &emsp;• <a target="_blank"
                                        href={"https://drive.google.com/file/d/1s-azyCqSU8Uy9qh5XuCNGHviL2LSJFSt/view?usp=drive_link"}> Certificate</a><br/>
-                            &emsp;• Research Project: <a target="_blank" href={"https://drive.google.com/file/d/1FTNs24QeeYogWHhZp9s_ggy4zCTTc9wB/view?usp=drive_link"}>Java Collections with Data-Centric Concurrency</a><br/>
+                            &emsp;• Research Project: <a target="_blank"
+                                                         href={"https://drive.google.com/file/d/1FTNs24QeeYogWHhZp9s_ggy4zCTTc9wB/view?usp=drive_link"}>Java Collections with Data-Centric Concurrency</a><br/>
                             &emsp;• Project Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
                         </span>,
                         <span><b>Master's Degree</b><br/>
                             &emsp;• Final grade - 18 mark | A (scale: 0-20 | ECTS grading system)<br/>
                             &emsp;• <a target="_blank"
-                                                         href={"https://drive.google.com/file/d/1e9pHEilMFKkeXvAX2DtUkWXIaV-OufTH/view?usp=drive_link"}> Certificate</a><br/>
+                                       href={"https://drive.google.com/file/d/1e9pHEilMFKkeXvAX2DtUkWXIaV-OufTH/view?usp=drive_link"}> Certificate</a><br/>
                             &emsp;• Thesis: <a target="_blank"
-                                                                 href={"https://run.unl.pt/handle/10362/163563"}> Decision Support System for the Integrated Areas of the Territory </a> <br/>
+                                               href={"https://run.unl.pt/handle/10362/163563"}> Decision Support System for the Integrated Areas of the Territory </a> <br/>
                             &emsp;• Thesis Grade: 19 mark | A (scale: 0-20 | ECTS grading system)<br/>
                             &emsp;• Main Courses:<br/>
                             &emsp;&emsp;- Visualization and Data Analytics <br/>
@@ -428,6 +445,18 @@ const resumeright = {
                     ]
                 }
             ],
+        },
+        {
+            title: ["Publications"],
+            data: [
+                {
+                    title: "LAND IT: A Decision Support System for Optimising Land Use Planning Strategies",
+                    subtitle: "AGILE-GISS 2025",
+                    companies: [],
+                    content: [<span>Publication of a <a target="_blank"
+                                                        href={"https://agile-giss.copernicus.org/articles/6/39/2025"}>short paper</a> in the 2025 AGILE Conference</span>,]
+                }
+            ]
         }
     ],
 };

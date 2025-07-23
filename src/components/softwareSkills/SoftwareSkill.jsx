@@ -23,7 +23,7 @@ class SoftwareSkill extends React.Component {
                             );
                         })}
                     </ul>
-                    <Tooltip id="my-tooltip" style={{ backgroundColor: "rgb(255,255,255)",
+                    <Tooltip id="my-tooltip" place={"top"} style={{ backgroundColor: "rgb(255,255,255)",
                         fontWeight: "bold", color: "#000000" }} />
                 </div>
             </div>

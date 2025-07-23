@@ -31,10 +31,7 @@ export default function Greeting(props) {
                             <Typewriter
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString("Lead Research Fellow")
-                                        .pauseFor(200)
-                                        .deleteAll()
-                                        .typeString("Full-Stack Developer")
+                                        .typeString("Full-Stack Lead Engineer")
                                         .pauseFor(200)
                                         .deleteAll()
                                         .typeString("Science and Computer Engineer")
@@ -53,8 +50,7 @@ export default function Greeting(props) {
                 <div className="entities">
                   A <b style={{color: "var(--themeBlue)"}}>science and computer engineer</b> who is passionated about
                     <b style={{color: "var(--themeOrange)"}}> data analysis and engineering</b>,
-                  and has recently worked on the
-                    full-stack development of the LAND IT project,
+                  and has recently worked as a Full-Stack Lead Engineer in the LAND IT project,
                     a web-based decision supporting system for territory management. Additionally,
                     I have experience in <b style={{color: "var(--themeBlue)"}}>client communication </b>
                     and <b style={{color: "var(--themeOrange)"}}>managing a small team of developers</b>.
