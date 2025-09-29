@@ -434,7 +434,7 @@ const resumeright = {
                     companies: [],
                     content: [
                         <span>Awarded with a <a target="_blank"
-                                                href={"https://www.fct.unl.pt/estudante/informacao-academica/bolsas-de-merito-referentes-ao-aproveitamento-escolar-em-2022/2023"}>merit scholarship</a> by DGES for the academic year 2022/2023, for being among the top-performing integrated master's students in the faculty that year</span>,
+                                                href={"https://www.fct.unl.pt/sites/default/files/2_resultados_definitivos_03_10_2024.pdf"}>merit scholarship</a> by DGES for the academic year 2022/2023, for being among the top-performing integrated master's students in the faculty that year</span>,
                     ],
                 },
                 {
