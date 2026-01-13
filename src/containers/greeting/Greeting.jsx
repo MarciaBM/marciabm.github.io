@@ -61,14 +61,9 @@ export default function Greeting(props) {
                         <div className="button-greeting-div">
                             <Button text="Contact me" href="/contact"/>
                             <Button
-                                text="My resume (ENG)"
+                                text="My resume"
                                 newTab={true}
                                 href={greeting.resumeLinkENG}
-                            />
-                            <Button
-                                text="My resume (PT)"
-                                newTab={true}
-                                href={greeting.resumeLinkPT}
                             />
                         </div>
                     </div>

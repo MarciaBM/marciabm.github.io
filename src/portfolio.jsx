@@ -19,8 +19,8 @@ const greeting = {
     title: "Hello!",
     sub: "Márcia Matias",
     logo_name: "Márcia Matias",
-    resumeLinkPT: "https://drive.google.com/file/d/1OWxaL91urPPg9OlFWunv3KJ05pL87r7M/view?usp=drive_link",
-    resumeLinkENG: "https://drive.google.com/file/d/1k00iPZJzdoD2i1SPoMGSoEHqxSn9eCOr/view?usp=drive_link",
+    // resumeLinkPT: "https://drive.google.com/file/d/1OWxaL91urPPg9OlFWunv3KJ05pL87r7M/view?usp=drive_link",
+    resumeLinkENG: "https://drive.google.com/file/d/1tyyfCVjGl0howV7Q1LMCxHKKDxO9epDp/view?usp=sharing",
 };
 
 // home logos
