@@ -20,9 +20,9 @@ class Education extends Component {
         <div className="basic-education">
           <Fade direction={"up"} duration={2000} triggerOnce={true}>
             <div className="heading-div">
-              <div className="heading-img-div">
-                <EducationImg theme={theme} />
-              </div>
+              {/*<div className="heading-img-div">*/}
+              {/*  <EducationImg theme={theme} />*/}
+              {/*</div>*/}
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.orange }}>
                   Experience &#38; Education

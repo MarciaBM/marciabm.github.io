@@ -18,17 +18,16 @@ class AboutMeComponent extends Component {
                 <div className="basic-about">
                     <Fade direction={"up"} duration={2000} triggerOnce={true}>
                         <div className="heading-div-about">
-                            <div className="heading-img-div-about">
-                                <AboutMeImg theme={theme}/>
-                            </div>
+                            {/*<div className="heading-img-div-about">*/}
+                            {/*    <AboutMeImg theme={theme}/>*/}
+                            {/*</div>*/}
                             <div className="heading-text-div-about">
                                 <h1 className="heading-text-about" style={{color: theme.orange}}>
                                     About Me
                                 </h1>
-                                <h3 className="heading-sub-text-about" style={{color: theme.text}}>
-                                    Soft Skills, Idioms,
-                                    <br/>Languages and Hobbies
-                                </h3>
+                                <p className="heading-sub-text-about" style={{color: theme.text}}>
+                                    <b>Soft Skills, Idioms, Languages and Hobbies</b>
+                                </p>
                             </div>
                         </div>
                     </Fade>

@@ -7,12 +7,12 @@ import { greeting } from "../../portfolio.jsx";
 export default function Footer(props) {
   return (
     <div className="footer-div">
-      <Fade>
+      {/*<Fade>*/}
         <p className="footer-text" style={{ color: props.theme.text }}>
           Made by {greeting.sub}
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
-      </Fade>
+      {/*</Fade>*/}
     </div>
   );
 }

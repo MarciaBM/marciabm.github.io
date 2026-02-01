@@ -1,10 +1,12 @@
 .about-main {
     width: 99vw;
+    height: 100%;
 }
 
 .basic-about {
     margin-left: 5%;
     margin-right: 5%;
+    height: 79vh;
 }
 
 .heading-div-about {
@@ -46,7 +48,7 @@
     font-family: "Google Sans Medium";
     line-height: 1.1;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .hobbies{
@@ -58,15 +60,19 @@
     font-family: "Google Sans Regular";
     text-align: center;
     line-height: 40px;
+    padding-bottom: 30px;
+    margin-top: -10px;
 }
 
 @media (max-width: 1380px) {
     .heading-text-about {
         font-size: 50px;
-        margin-top: 80px;
+        margin-top: 30px;
     }
     .heading-sub-text-about {
+        padding-bottom: 30px;
         font-size: 25px;
+        margin-top: -10px;
     }
 }
 
@@ -78,6 +84,8 @@
 
     .heading-sub-text-about {
         font-size: 20px;
+        padding-bottom: 30px;
+        margin-top: -10px;
     }
 
     .heading-div-about {

@@ -21,9 +21,9 @@ class Projects extends Component {
                 <div className="basic-projects">
                     <Fade direction={"up"} duration={2000} triggerOnce={true}>
                         <div className="projects-heading-div">
-                            <div className="projects-heading-img-div">
-                                <ProjectsImg theme={theme}/>
-                            </div>
+                            {/*<div className="projects-heading-img-div">*/}
+                            {/*    <ProjectsImg theme={theme}/>*/}
+                            {/*</div>*/}
                             <div className="projects-heading-text-div">
                                 <h1
                                     className="projects-heading-text"

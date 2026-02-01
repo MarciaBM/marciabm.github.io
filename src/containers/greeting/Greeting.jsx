@@ -52,7 +52,7 @@ export default function Greeting(props) {
                     <b style={{color: "var(--themeOrange)"}}> data analysis and engineering</b>,
                   and has recently worked as a Full-Stack Lead Engineer in the LAND IT project,
                     a web-based decision supporting system for territory management. Additionally,
-                    I have experience in <b style={{color: "var(--themeBlue)"}}>client communication </b>
+                    I have experience in <b style={{color: "var(--themeBlue)"}}>stakeholder communication </b>
                     and <b style={{color: "var(--themeOrange)"}}>managing a small team of developers</b>.
 
                 </div>

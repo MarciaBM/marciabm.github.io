@@ -1,5 +1,6 @@
 .cert-card {
   width: 20vw;
+  min-width: 300px;
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -7,8 +8,8 @@
   border: 1px solid #000000;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #000000;
-  margin-bottom: 30px;
   flex: 0 0 25%;
+  margin: 10px;
 }
 
 .cert-header {
@@ -19,7 +20,7 @@
 .logo_img {
   margin: 3px;
   width: auto;
-  height: 100px;
+  height: 60px;
 }
 
 .cert-body {

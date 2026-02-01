@@ -10,7 +10,7 @@ class Certifications extends Component {
     return (
       <div className="main" id="certs">
         <div className="certs-header-div">
-          <Fade direction={"up"} duration={2000} distance="20px">
+          <Fade direction={"up"} duration={2000} distance="20px" triggerOnce={true}>
             <h1 className="certs-header" style={{ color: theme.text }}>
               Certifications &#38; Badges
             </h1>

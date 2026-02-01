@@ -10,6 +10,7 @@
 
 .projects-heading-div {
   display: flex;
+  justify-content: center;
 }
 
 .project-section {

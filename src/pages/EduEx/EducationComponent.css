@@ -65,7 +65,7 @@
 @media (max-width: 768px) {
   .heading-text {
     font-size: 30px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
   }
 
   .heading-sub-text {
@@ -101,11 +101,12 @@
 .date{
   font-size: .9em;
   padding-left: .5em;
+  font-weight: 450;
 }
 
 .resume-subtitle {
   font-size: .9em;
-  font-weight: 700;
+  font-weight: 450;
   margin: 0;
   text-align: center;
 } 
@@ -127,12 +128,14 @@
 .resume .resume-title {
   font-size: 30px;
   line-height: 1.1;
-
   font-family: "Google Sans Regular";
-  text-decoration: underline;
-  /*font-weight: 700;*/
+  background: var(--themeBlue);
+  border-radius: 5px;
+  font-weight: 800;
   /*padding-bottom: 30px;*/
   text-align: center;
+  padding: 8px 15px;
+  margin-top: 30px;
 }
 
 .resume .resume-item {
@@ -140,20 +143,21 @@
   margin-top: -2px;
   border-left: 2px solid var(--themeOrange);
   position: relative;
+  font-weight: 250;
 }
 
 .resume .resume-item .resume-title {
-  border-radius: 5px;
-  line-height: 18px;
-  font-size: 1em;
-  background: var(--themeBlue);
-  padding: 8px 15px;
+  /*border-radius: 5px;*/
+  font-size: 22px;
+  /*background: var(--themeBlue);*/
+  /*padding: 8px 15px;*/
+  /*color: var(--themeOrange);*/
+  background: none;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700;
   color:black;
   margin-bottom: 10px;
   margin-top: -2px;
-  text-decoration: none;
 }
 
 

@@ -74,6 +74,49 @@ const skills = {
                 },
             ]
         },
+
+        {
+            title: "Data",
+            fileName: "DataScienceImg",
+            skills: [
+                "⚡ Experience in data analysis and visualization, which was also my focus area during my master's degree.",
+                "⚡ Experience with geospatial data, specially PostGIS and GeoTools.",
+                "⚡ Having good hands-on with Tableau.",
+                "⚡ Personal experience with NoSQL databases.",
+                "⚡ Professional experience with data pipelines in Python.",
+            ],
+            softwareSkills: [
+                {
+                    skillName: "PostgreSQL",
+                    fontAwesomeClassname: "logos-postgresql",
+                },
+                {
+                    skillName: "Neo4j",
+                    fontAwesomeClassname: "logos-neo4j",
+                },
+                {
+                    skillName: "Python",
+                    fontAwesomeClassname: "logos-python",
+                },
+                {
+                    skillName: "Tableau",
+                    fontAwesomeClassname: "logos-tableau-icon",
+                },
+                {
+                    skillName: "MongoDB",
+                    fontAwesomeClassname: "logos-mongodb-icon",
+                },
+                {
+                    skillName: "Apache Airflow",
+                    fontAwesomeClassname: "logos-airflow-icon",
+                },
+                {
+                    skillName: "Apache Cassandra",
+                    fontAwesomeClassname: "logos-cassandra",
+                },
+            ],
+        },
+
         {
             title: "Full-Stack Development",
             fileName: "FullStackImg",
@@ -121,38 +164,6 @@ const skills = {
             ],
         },
 
-        {
-            title: "Data",
-            fileName: "DataScienceImg",
-            skills: [
-                "⚡ Experience in data analysis and visualization, which was also my focus area during my master's degree.",
-                "⚡ Experience with geospatial data, specially PostGIS and GeoTools.",
-                "⚡ Having good hands-on with Tableau.",
-            ],
-            softwareSkills: [
-                {
-                    skillName: "PostgreSQL",
-                    fontAwesomeClassname: "logos-postgresql",
-                },
-                {
-                    skillName: "Neo4j",
-                    fontAwesomeClassname: "logos-neo4j",
-                },
-                {
-                    skillName: "Python",
-                    fontAwesomeClassname: "logos-python",
-                },
-                {
-                    skillName: "Tableau",
-                    fontAwesomeClassname: "logos-tableau-icon",
-                },
-                {
-                    skillName: "MongoDB",
-                    fontAwesomeClassname: "logos-mongodb",
-                },
-            ],
-        },
-
     ],
 };
 
@@ -160,9 +171,9 @@ const skills = {
 const projectsHeader = {
     title: "Projects",
     description:
-        "In here are present the projects that I considered the most relevant during my master," +
+        "In here are presented the projects that I considered the most relevant during my master," +
         " two personal projects that I developed for fun" +
-        " and the biggest project that I've ever made, LAND IT, also my master's thesis.",
+        " and the biggest project that I've ever been a part of, LAND IT, also my master's thesis.",
 };
 
 //project cards
@@ -324,12 +335,13 @@ const resumeleft = {
                 {
                     title: "Full-Stack Lead Engineer",
                     subtitle: "Aflomação",
-                    date: "April 2025 - present",
+                    date: "April 2025 - February 2026",
                     companies: ["aflomacao.png"],
                     content: [
                         "Continued the implementation of the LAND IT project.",
                         "Team and project management.",
                         "Assignment and planning of tasks in sprints.",
+                        "Development of a Python pipeline to clean and transform data regarding +6000 landowners and their properties.",
                     ],
                 },
                 {
@@ -465,6 +477,16 @@ const resumeright = {
 const certifications = {
     certifications: [
         {
+            title: "IBM Data Engineering Professional Certificate",
+            subtitle: "Coursera",
+            logo_path: "ibm.png",
+            certification_code: "Not yet issued",
+            certificate_link: "https://www.coursera.org/user/08d45c35e3200a879d3c04c5550ded28",
+            alt_name: "IBM",
+            date: "Feb 2026 (expected)",
+            color_code: "#e7e7e7",
+        },
+        {
             title: "Electoral Agents – Board Members",
             subtitle: "Plataforma NAU",
             logo_path: "nau.png",
@@ -480,7 +502,7 @@ const certifications = {
             logo_path: "hr.png",
             certification_code: "cc607b0c39c8",
             certificate_link: "https://www.hackerrank.com/certificates/cc607b0c39c8",
-            alt_name: "NAU",
+            alt_name: "SQL",
             date: "October 2023",
             color_code: "#e7e7e7",
         },
@@ -509,10 +531,6 @@ const contactPageData = {
     addressSection: {
         title: "Address",
         subtitle: "Mafra, Lisboa",
-    },
-    phoneSection: {
-        title: "Phone Number",
-        subtitle: "+91 9022817659",
     },
 };
 
