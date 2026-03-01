@@ -42,6 +42,14 @@ const competitiveSites = {
             },
             profileLink: "https://github.com/MarciaBM",
         },
+        {
+            siteName: "Credly",
+            iconifyClassname: "simple-icons:credly",
+            style: {
+                color: "#FF6B00",
+            },
+            profileLink: "https://www.credly.com/users/marciabmatias",
+        },
     ],
 };
 
@@ -534,29 +542,6 @@ const contactPageData = {
     },
 };
 
-//contact icons
-const socialMediaLinks = [
-    {
-        name: "Github",
-        link: "https://github.com/MarciaBM",
-        fontAwesomeIcon: "logos-github-icon",
-        // fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-        backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-    },
-    {
-        name: "LinkedIn",
-        link: "https://www.linkedin.com/in/marciabm/",
-        fontAwesomeIcon: "logos-linkedin-icon", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-        backgroundColor: "rgb(0,119,181)", // Reference https://simpleicons.org/?q=linkedin
-    },
-    // {
-    //     name: "Email",
-    //     link: "mailto:marciab.matias@hotmail.com",
-    //     fontAwesomeIcon: "vscode-icons:file-type-outlook", // Reference https://fontawesome.com/icons/google?style=brands
-    //     backgroundColor: "#126ce5", // Reference https://simpleicons.org/?q=gmail
-    // },
-];
-
 const languages = [
     {
         name: "Java",
@@ -634,7 +619,6 @@ export {
     settings,
     seo,
     greeting,
-    socialMediaLinks,
     skills,
     competitiveSites,
     projectsHeader,
