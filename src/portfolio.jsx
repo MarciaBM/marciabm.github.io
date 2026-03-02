@@ -20,7 +20,7 @@ const greeting = {
     sub: "Márcia Matias",
     logo_name: "Márcia Matias",
     // resumeLinkPT: "https://drive.google.com/file/d/1OWxaL91urPPg9OlFWunv3KJ05pL87r7M/view?usp=drive_link",
-    resumeLinkENG: "https://drive.google.com/file/d/1tyyfCVjGl0howV7Q1LMCxHKKDxO9epDp/view?usp=sharing",
+    resumeLinkENG: "https://drive.google.com/file/d/1EP3aXueOTa0JaWdAGrRLMspn_CpVimTV/view?usp=sharing",
 };
 
 // home logos
@@ -77,6 +77,10 @@ const skills = {
                     fontAwesomeClassname: "devicon:jira",
                 },
                 {
+                    skillName: "Confluence",
+                    fontAwesomeClassname: "devicon:confluence",
+                },
+                {
                     skillName: "Docker",
                     fontAwesomeClassname: "logos-docker-icon",
                 },
@@ -121,6 +125,14 @@ const skills = {
                 {
                     skillName: "Apache Cassandra",
                     fontAwesomeClassname: "logos-cassandra",
+                },
+                {
+                    skillName: "Apache Spark",
+                    fontAwesomeClassname: "logos-apache-spark",
+                },
+                {
+                    skillName: "Hadoop",
+                    fontAwesomeClassname: "logos-hadoop",
                 },
             ],
         },
@@ -488,10 +500,10 @@ const certifications = {
             title: "IBM Data Engineering Professional Certificate",
             subtitle: "Coursera",
             logo_path: "ibm.png",
-            certification_code: "Not yet issued",
-            certificate_link: "https://www.coursera.org/user/08d45c35e3200a879d3c04c5550ded28",
+            certification_code: "45SUTWMR186E",
+            certificate_link: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/45SUTWMR186E",
             alt_name: "IBM",
-            date: "Feb 2026 (expected)",
+            date: "Feb 2026",
             color_code: "#e7e7e7",
         },
         {
