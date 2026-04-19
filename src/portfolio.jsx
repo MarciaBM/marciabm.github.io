@@ -353,9 +353,18 @@ const resumeleft = {
             title: ["Experience"],
             data: [
                 {
+                    title: "Data Engineer",
+                    subtitle: "Critical TechWorks (BMW Group)",
+                    date: "April 2026 - Present",
+                    companies: ["ctw.png"],
+                    content: [
+                        "Maintenance of an ELT pipeline in AWS infrastructure, built with Terraform and Python.",
+                    ],
+                },
+                {
                     title: "Full-Stack Lead Engineer",
                     subtitle: "Aflomação",
-                    date: "April 2025 - February 2026",
+                    date: "April 2025 - March 2026",
                     companies: ["aflomacao.png"],
                     content: [
                         "Continued the implementation of the LAND IT project.",
